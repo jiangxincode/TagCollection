@@ -9,7 +9,7 @@ This TagCollection includes the useful libraries likes:
 + ANSI C(C99)
 + ISO C++(C++11)
 + POSIX
-+ MPI(MPI 2.2).
++ MPI(MPI 2.2)
 
 If you have some advises, please tell me, open a issue, give me a pull request, or send me a email. 
 
@@ -49,7 +49,7 @@ cd ~/.vim/bundle
 git clone https://github.com/jiangxincode/TagCollection.git
 ```
 
-If you are not using any package manager, download the [tarball](https://github.com/jiangxincode/TagCollection/archive/master.tar.gz) and this, but you should modify the the path in the plugin/TagCollection.vim
+If you are not using any package manager, download the [tarball](https://github.com/jiangxincode/TagCollection/archive/master.tar.gz) and this, but you should modify the the value of $TAGFILES in the plugin/TagCollection.vim
 
 ```sh
 cd ~/.vim
