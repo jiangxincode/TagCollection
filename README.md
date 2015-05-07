@@ -46,6 +46,41 @@ cd ~/.vim
 tar --strip=1 -zxf TagCollection-master.tar.gz
 ```
 
+## Reference
+
++ [C standard library](http://en.wikipedia.org/wiki/C_standard_library)
++ [C++ Standard Library](http://en.wikipedia.org/wiki/C%2B%2B_Standard_Library)
++ [C POSIX library](http://en.wikipedia.org/wiki/C_POSIX_library)
+
+## Commands used to product the tags
+
++ C99(exclude "iso646.h")
+
+```
+cd /usr/include/
+sudo ctags --c-kinds=+px --c++-kinds=+px --fields=+iafksS --extra=+qf assert.h ctype.h errno.h c++/4.8/tr1/float.h limits.h locale.h math.h setjmp.h signal.h c++/4.8/tr1/stdarg.h linux/stddef.h stdio.h stdlib.h string.h time.h wchar.h wctype.h complex.h fenv.h inttypes.h c++/4.8/tr1/stdbool.h stdint.h tgmath.h
+```
+
++ C++11(exclude "codecvt")
+
+```
+cd /usr/include/c++/4.8
+sudo ctags --c-kinds=+px --c++-kinds=+px --fields=+iafksS --extra=+qf array bitset deque forward_list list map queue set stack unordered_map unordered_set vector algorithm chrono functional iterator memory stdexcept tuple utility locale string regex fstream iomanip ios iosfwd iostream istream ostream sstream streambuf exception new typeinfo thread mutex condition_variable future complex random valarray numeric 
+```
+
++ posix(exclude "netdb.h", "trace.h")
+
+```
+cd /usr/local/openmpi-1.8.4/include
+sudo ctags --c-kinds=+px --c++-kinds=+px --fields=+iafksS --extra=+qf aio.h arpa/inet.h cpio.h dirent.h dlfcn.h fcntl.h fmtmsg.h fnmatch.h ftw.h glob.h grp.h iconv.h langinfo.h libgen.h monetary.h mqueue.h net/if.h netdb.h netinet/in.h netinet/tcp.h nl_types.h poll.h pthread.h pwd.h regex.h sched.h search.h semaphore.h spawn.h strings.h stropts.h x86_64-linux-gnu/sys/*.h syslog.h tar.h termios.h ulimit.h unistd.h utime.h utmpx.h wordexp.h
+```
+
++ mpi
+
+```
+cd /usr/local/openmpi-1.8.4/include
+sudo ctags --c-kinds=+px --c++-kinds=+px --fields=+iafksS --extra=+qf -R *
+```
 
 ## TODO
 
