@@ -2,9 +2,7 @@
 
 ![image](https://github.com/jiangxincode/TagCollection/raw/master/screenshots/status.png)
 
-Auto completion for ANSI C(C99), ISO C++(C++11) and MPI.
-
-Now the plugin has full support of MPI 2.2 with C, C++.
+Auto completion for ANSI C(C99), ISO C++(C++11) POSIX and MPI(MPI 2.2).
 
 If you have some advises, please tell me, open a issue, give me a pull request, or send me a email. 
 
@@ -19,6 +17,13 @@ Hava a good time on VIM.
 
 
 ## Installation
+
+First of all, you should install this tools:
+
++ [ctags](http://ctags.sourceforge.net/)
++ [OmniCppComplete](http://www.vim.org/scripts/script.php?script_id=1520)
+
+And then you can install the TagCollection
 
 If you use [Vundle](https://github.com/gmarik/vundle),add the following line to your `~/.vimrc`:
 
@@ -45,6 +50,9 @@ If you are not using any package manager, download the [tarball](https://github.
 cd ~/.vim
 tar --strip=1 -zxf TagCollection-master.tar.gz
 ```
+
+## Configue
+
 
 ## Reference
 
