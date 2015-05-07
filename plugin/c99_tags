@@ -1,0 +1,1311 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFSIZ	stdio.h	127;"	d
+CHAR_BIT	limits.h	53;"	d
+CHAR_MAX	limits.h	65;"	d
+CHAR_MAX	limits.h	68;"	d
+CHAR_MIN	limits.h	64;"	d
+CHAR_MIN	limits.h	67;"	d
+CLK_TCK	time.h	46;"	d
+CMPLX	complex.h	53;"	d
+CMPLXF	complex.h	54;"	d
+CMPLXL	complex.h	55;"	d
+DOMAIN	math.h	345;"	d
+EOF	stdio.h	134;"	d
+EXIT_FAILURE	stdlib.h	133;"	d
+EXIT_SUCCESS	stdlib.h	134;"	d
+FILE	stdio.h	/^typedef struct _IO_FILE FILE;$/;"	t	typeref:struct:_IO_FILE
+FP_INFINITE	math.h	/^    FP_INFINITE =$/;"	e	enum:__anon2
+FP_INFINITE	math.h	195;"	d
+FP_NAN	math.h	/^    FP_NAN =$/;"	e	enum:__anon2
+FP_NAN	math.h	192;"	d
+FP_NORMAL	math.h	/^    FP_NORMAL =$/;"	e	enum:__anon2
+FP_NORMAL	math.h	204;"	d
+FP_SUBNORMAL	math.h	/^    FP_SUBNORMAL =$/;"	e	enum:__anon2
+FP_SUBNORMAL	math.h	201;"	d
+FP_ZERO	math.h	/^    FP_ZERO =$/;"	e	enum:__anon2
+FP_ZERO	math.h	198;"	d
+HUGE	math.h	353;"	d
+I	complex.h	48;"	d
+I	complex.h	49;"	d
+INT16_C	stdint.h	279;"	d
+INT16_MAX	stdint.h	161;"	d
+INT16_MIN	stdint.h	156;"	d
+INT32_C	stdint.h	280;"	d
+INT32_MAX	stdint.h	162;"	d
+INT32_MIN	stdint.h	157;"	d
+INT64_C	stdint.h	282;"	d
+INT64_C	stdint.h	284;"	d
+INT64_MAX	stdint.h	163;"	d
+INT64_MIN	stdint.h	158;"	d
+INT8_C	stdint.h	278;"	d
+INT8_MAX	stdint.h	160;"	d
+INT8_MIN	stdint.h	155;"	d
+INTMAX_C	stdint.h	299;"	d
+INTMAX_C	stdint.h	302;"	d
+INTMAX_MAX	stdint.h	238;"	d
+INTMAX_MIN	stdint.h	236;"	d
+INTPTR_MAX	stdint.h	226;"	d
+INTPTR_MAX	stdint.h	230;"	d
+INTPTR_MIN	stdint.h	225;"	d
+INTPTR_MIN	stdint.h	229;"	d
+INT_FAST16_MAX	stdint.h	203;"	d
+INT_FAST16_MAX	stdint.h	206;"	d
+INT_FAST16_MIN	stdint.h	193;"	d
+INT_FAST16_MIN	stdint.h	196;"	d
+INT_FAST32_MAX	stdint.h	204;"	d
+INT_FAST32_MAX	stdint.h	207;"	d
+INT_FAST32_MIN	stdint.h	194;"	d
+INT_FAST32_MIN	stdint.h	197;"	d
+INT_FAST64_MAX	stdint.h	209;"	d
+INT_FAST64_MIN	stdint.h	199;"	d
+INT_FAST8_MAX	stdint.h	201;"	d
+INT_FAST8_MIN	stdint.h	191;"	d
+INT_LEAST16_MAX	stdint.h	179;"	d
+INT_LEAST16_MIN	stdint.h	174;"	d
+INT_LEAST32_MAX	stdint.h	180;"	d
+INT_LEAST32_MIN	stdint.h	175;"	d
+INT_LEAST64_MAX	stdint.h	181;"	d
+INT_LEAST64_MIN	stdint.h	176;"	d
+INT_LEAST8_MAX	stdint.h	178;"	d
+INT_LEAST8_MIN	stdint.h	173;"	d
+INT_MAX	limits.h	80;"	d
+INT_MIN	limits.h	79;"	d
+LC_ADDRESS	locale.h	44;"	d
+LC_ADDRESS_MASK	locale.h	166;"	d
+LC_ALL	locale.h	41;"	d
+LC_ALL_MASK	locale.h	170;"	d
+LC_COLLATE	locale.h	38;"	d
+LC_COLLATE_MASK	locale.h	161;"	d
+LC_CTYPE	locale.h	35;"	d
+LC_CTYPE_MASK	locale.h	158;"	d
+LC_GLOBAL_LOCALE	locale.h	201;"	d
+LC_IDENTIFICATION	locale.h	47;"	d
+LC_IDENTIFICATION_MASK	locale.h	169;"	d
+LC_MEASUREMENT	locale.h	46;"	d
+LC_MEASUREMENT_MASK	locale.h	168;"	d
+LC_MESSAGES	locale.h	40;"	d
+LC_MESSAGES_MASK	locale.h	163;"	d
+LC_MONETARY	locale.h	39;"	d
+LC_MONETARY_MASK	locale.h	162;"	d
+LC_NAME	locale.h	43;"	d
+LC_NAME_MASK	locale.h	165;"	d
+LC_NUMERIC	locale.h	36;"	d
+LC_NUMERIC_MASK	locale.h	159;"	d
+LC_PAPER	locale.h	42;"	d
+LC_PAPER_MASK	locale.h	164;"	d
+LC_TELEPHONE	locale.h	45;"	d
+LC_TELEPHONE_MASK	locale.h	167;"	d
+LC_TIME	locale.h	37;"	d
+LC_TIME_MASK	locale.h	160;"	d
+LLONG_MAX	limits.h	103;"	d
+LLONG_MAX	limits.h	134;"	d
+LLONG_MIN	limits.h	104;"	d
+LLONG_MIN	limits.h	131;"	d
+LONG_MAX	limits.h	87;"	d
+LONG_MAX	limits.h	89;"	d
+LONG_MIN	limits.h	91;"	d
+MATH_ERREXCEPT	math.h	274;"	d
+MATH_ERRNO	math.h	273;"	d
+MAXFLOAT	math.h	359;"	d
+MB_CUR_MAX	stdlib.h	138;"	d
+MB_LEN_MAX	limits.h	31;"	d
+M_1_PI	math.h	375;"	d
+M_1_PIl	math.h	394;"	d
+M_2_PI	math.h	376;"	d
+M_2_PIl	math.h	395;"	d
+M_2_SQRTPI	math.h	377;"	d
+M_2_SQRTPIl	math.h	396;"	d
+M_E	math.h	367;"	d
+M_El	math.h	386;"	d
+M_LN10	math.h	371;"	d
+M_LN10l	math.h	390;"	d
+M_LN2	math.h	370;"	d
+M_LN2l	math.h	389;"	d
+M_LOG10E	math.h	369;"	d
+M_LOG10El	math.h	388;"	d
+M_LOG2E	math.h	368;"	d
+M_LOG2El	math.h	387;"	d
+M_PI	math.h	372;"	d
+M_PI_2	math.h	373;"	d
+M_PI_2l	math.h	392;"	d
+M_PI_4	math.h	374;"	d
+M_PI_4l	math.h	393;"	d
+M_PIl	math.h	391;"	d
+M_SQRT1_2	math.h	379;"	d
+M_SQRT1_2l	math.h	398;"	d
+M_SQRT2	math.h	378;"	d
+M_SQRT2l	math.h	397;"	d
+NSIG	signal.h	200;"	d
+OVERFLOW	math.h	347;"	d
+PLOSS	math.h	350;"	d
+PRIX16	inttypes.h	135;"	d
+PRIX32	inttypes.h	136;"	d
+PRIX64	inttypes.h	137;"	d
+PRIX8	inttypes.h	134;"	d
+PRIXFAST16	inttypes.h	145;"	d
+PRIXFAST32	inttypes.h	146;"	d
+PRIXFAST64	inttypes.h	147;"	d
+PRIXFAST8	inttypes.h	144;"	d
+PRIXLEAST16	inttypes.h	140;"	d
+PRIXLEAST32	inttypes.h	141;"	d
+PRIXLEAST64	inttypes.h	142;"	d
+PRIXLEAST8	inttypes.h	139;"	d
+PRIXMAX	inttypes.h	156;"	d
+PRIXPTR	inttypes.h	165;"	d
+PRId16	inttypes.h	55;"	d
+PRId32	inttypes.h	56;"	d
+PRId64	inttypes.h	57;"	d
+PRId8	inttypes.h	54;"	d
+PRIdFAST16	inttypes.h	65;"	d
+PRIdFAST32	inttypes.h	66;"	d
+PRIdFAST64	inttypes.h	67;"	d
+PRIdFAST8	inttypes.h	64;"	d
+PRIdLEAST16	inttypes.h	60;"	d
+PRIdLEAST32	inttypes.h	61;"	d
+PRIdLEAST64	inttypes.h	62;"	d
+PRIdLEAST8	inttypes.h	59;"	d
+PRIdMAX	inttypes.h	151;"	d
+PRIdPTR	inttypes.h	160;"	d
+PRIi16	inttypes.h	71;"	d
+PRIi32	inttypes.h	72;"	d
+PRIi64	inttypes.h	73;"	d
+PRIi8	inttypes.h	70;"	d
+PRIiFAST16	inttypes.h	81;"	d
+PRIiFAST32	inttypes.h	82;"	d
+PRIiFAST64	inttypes.h	83;"	d
+PRIiFAST8	inttypes.h	80;"	d
+PRIiLEAST16	inttypes.h	76;"	d
+PRIiLEAST32	inttypes.h	77;"	d
+PRIiLEAST64	inttypes.h	78;"	d
+PRIiLEAST8	inttypes.h	75;"	d
+PRIiMAX	inttypes.h	152;"	d
+PRIiPTR	inttypes.h	161;"	d
+PRIo16	inttypes.h	87;"	d
+PRIo32	inttypes.h	88;"	d
+PRIo64	inttypes.h	89;"	d
+PRIo8	inttypes.h	86;"	d
+PRIoFAST16	inttypes.h	97;"	d
+PRIoFAST32	inttypes.h	98;"	d
+PRIoFAST64	inttypes.h	99;"	d
+PRIoFAST8	inttypes.h	96;"	d
+PRIoLEAST16	inttypes.h	92;"	d
+PRIoLEAST32	inttypes.h	93;"	d
+PRIoLEAST64	inttypes.h	94;"	d
+PRIoLEAST8	inttypes.h	91;"	d
+PRIoMAX	inttypes.h	153;"	d
+PRIoPTR	inttypes.h	162;"	d
+PRIu16	inttypes.h	103;"	d
+PRIu32	inttypes.h	104;"	d
+PRIu64	inttypes.h	105;"	d
+PRIu8	inttypes.h	102;"	d
+PRIuFAST16	inttypes.h	113;"	d
+PRIuFAST32	inttypes.h	114;"	d
+PRIuFAST64	inttypes.h	115;"	d
+PRIuFAST8	inttypes.h	112;"	d
+PRIuLEAST16	inttypes.h	108;"	d
+PRIuLEAST32	inttypes.h	109;"	d
+PRIuLEAST64	inttypes.h	110;"	d
+PRIuLEAST8	inttypes.h	107;"	d
+PRIuMAX	inttypes.h	154;"	d
+PRIuPTR	inttypes.h	163;"	d
+PRIx16	inttypes.h	119;"	d
+PRIx32	inttypes.h	120;"	d
+PRIx64	inttypes.h	121;"	d
+PRIx8	inttypes.h	118;"	d
+PRIxFAST16	inttypes.h	129;"	d
+PRIxFAST32	inttypes.h	130;"	d
+PRIxFAST64	inttypes.h	131;"	d
+PRIxFAST8	inttypes.h	128;"	d
+PRIxLEAST16	inttypes.h	124;"	d
+PRIxLEAST32	inttypes.h	125;"	d
+PRIxLEAST64	inttypes.h	126;"	d
+PRIxLEAST8	inttypes.h	123;"	d
+PRIxMAX	inttypes.h	155;"	d
+PRIxPTR	inttypes.h	164;"	d
+PTRDIFF_MAX	stdint.h	249;"	d
+PTRDIFF_MAX	stdint.h	252;"	d
+PTRDIFF_MIN	stdint.h	248;"	d
+PTRDIFF_MIN	stdint.h	251;"	d
+P_tmpdir	stdio.h	151;"	d
+RAND_MAX	stdlib.h	128;"	d
+SCHAR_MAX	limits.h	57;"	d
+SCHAR_MIN	limits.h	56;"	d
+SCNd16	inttypes.h	172;"	d
+SCNd32	inttypes.h	173;"	d
+SCNd64	inttypes.h	174;"	d
+SCNd8	inttypes.h	171;"	d
+SCNdFAST16	inttypes.h	182;"	d
+SCNdFAST32	inttypes.h	183;"	d
+SCNdFAST64	inttypes.h	184;"	d
+SCNdFAST8	inttypes.h	181;"	d
+SCNdLEAST16	inttypes.h	177;"	d
+SCNdLEAST32	inttypes.h	178;"	d
+SCNdLEAST64	inttypes.h	179;"	d
+SCNdLEAST8	inttypes.h	176;"	d
+SCNdMAX	inttypes.h	252;"	d
+SCNdPTR	inttypes.h	259;"	d
+SCNi16	inttypes.h	188;"	d
+SCNi32	inttypes.h	189;"	d
+SCNi64	inttypes.h	190;"	d
+SCNi8	inttypes.h	187;"	d
+SCNiFAST16	inttypes.h	198;"	d
+SCNiFAST32	inttypes.h	199;"	d
+SCNiFAST64	inttypes.h	200;"	d
+SCNiFAST8	inttypes.h	197;"	d
+SCNiLEAST16	inttypes.h	193;"	d
+SCNiLEAST32	inttypes.h	194;"	d
+SCNiLEAST64	inttypes.h	195;"	d
+SCNiLEAST8	inttypes.h	192;"	d
+SCNiMAX	inttypes.h	253;"	d
+SCNiPTR	inttypes.h	260;"	d
+SCNo16	inttypes.h	220;"	d
+SCNo32	inttypes.h	221;"	d
+SCNo64	inttypes.h	222;"	d
+SCNo8	inttypes.h	219;"	d
+SCNoFAST16	inttypes.h	230;"	d
+SCNoFAST32	inttypes.h	231;"	d
+SCNoFAST64	inttypes.h	232;"	d
+SCNoFAST8	inttypes.h	229;"	d
+SCNoLEAST16	inttypes.h	225;"	d
+SCNoLEAST32	inttypes.h	226;"	d
+SCNoLEAST64	inttypes.h	227;"	d
+SCNoLEAST8	inttypes.h	224;"	d
+SCNoMAX	inttypes.h	254;"	d
+SCNoPTR	inttypes.h	261;"	d
+SCNu16	inttypes.h	204;"	d
+SCNu32	inttypes.h	205;"	d
+SCNu64	inttypes.h	206;"	d
+SCNu8	inttypes.h	203;"	d
+SCNuFAST16	inttypes.h	214;"	d
+SCNuFAST32	inttypes.h	215;"	d
+SCNuFAST64	inttypes.h	216;"	d
+SCNuFAST8	inttypes.h	213;"	d
+SCNuLEAST16	inttypes.h	209;"	d
+SCNuLEAST32	inttypes.h	210;"	d
+SCNuLEAST64	inttypes.h	211;"	d
+SCNuLEAST8	inttypes.h	208;"	d
+SCNuMAX	inttypes.h	255;"	d
+SCNuPTR	inttypes.h	262;"	d
+SCNx16	inttypes.h	236;"	d
+SCNx32	inttypes.h	237;"	d
+SCNx64	inttypes.h	238;"	d
+SCNx8	inttypes.h	235;"	d
+SCNxFAST16	inttypes.h	246;"	d
+SCNxFAST32	inttypes.h	247;"	d
+SCNxFAST64	inttypes.h	248;"	d
+SCNxFAST8	inttypes.h	245;"	d
+SCNxLEAST16	inttypes.h	241;"	d
+SCNxLEAST32	inttypes.h	242;"	d
+SCNxLEAST64	inttypes.h	243;"	d
+SCNxLEAST8	inttypes.h	240;"	d
+SCNxMAX	inttypes.h	256;"	d
+SCNxPTR	inttypes.h	263;"	d
+SEEK_CUR	stdio.h	141;"	d
+SEEK_DATA	stdio.h	144;"	d
+SEEK_END	stdio.h	142;"	d
+SEEK_HOLE	stdio.h	145;"	d
+SEEK_SET	stdio.h	140;"	d
+SHRT_MAX	limits.h	73;"	d
+SHRT_MIN	limits.h	72;"	d
+SIG_ATOMIC_MAX	stdint.h	257;"	d
+SIG_ATOMIC_MIN	stdint.h	256;"	d
+SING	math.h	346;"	d
+SIZE_MAX	stdint.h	261;"	d
+SIZE_MAX	stdint.h	263;"	d
+SV_INTERRUPT	signal.h	318;"	d
+SV_ONSTACK	signal.h	317;"	d
+SV_RESETHAND	signal.h	319;"	d
+TIME_UTC	time.h	182;"	d
+TLOSS	math.h	349;"	d
+UCHAR_MAX	limits.h	60;"	d
+UINT16_C	stdint.h	289;"	d
+UINT16_MAX	stdint.h	167;"	d
+UINT32_C	stdint.h	290;"	d
+UINT32_MAX	stdint.h	168;"	d
+UINT64_C	stdint.h	292;"	d
+UINT64_C	stdint.h	294;"	d
+UINT64_MAX	stdint.h	169;"	d
+UINT8_C	stdint.h	288;"	d
+UINT8_MAX	stdint.h	166;"	d
+UINTMAX_C	stdint.h	300;"	d
+UINTMAX_C	stdint.h	303;"	d
+UINTMAX_MAX	stdint.h	241;"	d
+UINTPTR_MAX	stdint.h	227;"	d
+UINTPTR_MAX	stdint.h	231;"	d
+UINT_FAST16_MAX	stdint.h	214;"	d
+UINT_FAST16_MAX	stdint.h	217;"	d
+UINT_FAST32_MAX	stdint.h	215;"	d
+UINT_FAST32_MAX	stdint.h	218;"	d
+UINT_FAST64_MAX	stdint.h	220;"	d
+UINT_FAST8_MAX	stdint.h	212;"	d
+UINT_LEAST16_MAX	stdint.h	185;"	d
+UINT_LEAST32_MAX	stdint.h	186;"	d
+UINT_LEAST64_MAX	stdint.h	187;"	d
+UINT_LEAST8_MAX	stdint.h	184;"	d
+UINT_MAX	limits.h	83;"	d
+ULLONG_MAX	limits.h	107;"	d
+ULLONG_MAX	limits.h	137;"	d
+ULONG_MAX	limits.h	95;"	d
+ULONG_MAX	limits.h	97;"	d
+UNDERFLOW	math.h	348;"	d
+USHRT_MAX	limits.h	76;"	d
+WCHAR_MAX	stdint.h	270;"	d
+WCHAR_MAX	wchar.h	118;"	d
+WCHAR_MIN	stdint.h	269;"	d
+WCHAR_MIN	wchar.h	117;"	d
+WEOF	wchar.h	122;"	d
+WEOF	wctype.h	38;"	d
+WEXITSTATUS	stdlib.h	84;"	d
+WIFCONTINUED	stdlib.h	91;"	d
+WIFEXITED	stdlib.h	87;"	d
+WIFSIGNALED	stdlib.h	88;"	d
+WIFSTOPPED	stdlib.h	89;"	d
+WINT_MAX	stdint.h	275;"	d
+WINT_MIN	stdint.h	274;"	d
+WSTOPSIG	stdlib.h	86;"	d
+WTERMSIG	stdlib.h	85;"	d
+X_TLOSS	math.h	342;"	d
+_ASSERT_H	assert.h	24;"	d
+_ASSERT_H	assert.h	34;"	d
+_ASSERT_H_DECLS	assert.h	65;"	d
+_COMPLEX_H	complex.h	23;"	d
+_CTYPE_H	ctype.h	23;"	d
+_Complex	complex.h	36;"	d
+_Complex_I	complex.h	44;"	d
+_ERRNO_H	errno.h	27;"	d
+_FENV_H	fenv.h	23;"	d
+_IEEE_	math.h	/^  _IEEE_ = -1,	\/* According to IEEE 754\/IEEE 854.  *\/$/;"	e	enum:__anon3
+_INTTYPES_H	inttypes.h	23;"	d
+_IOFBF	stdio.h	120;"	d
+_IOLBF	stdio.h	121;"	d
+_IONBF	stdio.h	122;"	d
+_IO_FILE	stdio.h	/^struct _IO_FILE;$/;"	x
+_ISOC_	math.h	/^  _ISOC_	\/* Actually this is ISO C99.  *\/$/;"	e	enum:__anon3
+_ISalnum	ctype.h	/^  _ISalnum = _ISbit (11)	\/* Alphanumeric.  *\/$/;"	e	enum:__anon1
+_ISalpha	ctype.h	/^  _ISalpha = _ISbit (2),	\/* Alphabetic.  *\/$/;"	e	enum:__anon1
+_ISbit	ctype.h	41;"	d
+_ISblank	ctype.h	/^  _ISblank = _ISbit (8),	\/* Blank (usually SPC and TAB).  *\/$/;"	e	enum:__anon1
+_IScntrl	ctype.h	/^  _IScntrl = _ISbit (9),	\/* Control character.  *\/$/;"	e	enum:__anon1
+_ISdigit	ctype.h	/^  _ISdigit = _ISbit (3),	\/* Numeric.  *\/$/;"	e	enum:__anon1
+_ISgraph	ctype.h	/^  _ISgraph = _ISbit (7),	\/* Graphical.  *\/$/;"	e	enum:__anon1
+_ISlower	ctype.h	/^  _ISlower = _ISbit (1),	\/* lowercase.  *\/$/;"	e	enum:__anon1
+_ISprint	ctype.h	/^  _ISprint = _ISbit (6),	\/* Printing.  *\/$/;"	e	enum:__anon1
+_ISpunct	ctype.h	/^  _ISpunct = _ISbit (10),	\/* Punctuation.  *\/$/;"	e	enum:__anon1
+_ISspace	ctype.h	/^  _ISspace = _ISbit (5),	\/* Whitespace.  *\/$/;"	e	enum:__anon1
+_ISupper	ctype.h	/^  _ISupper = _ISbit (0),	\/* UPPERCASE.  *\/$/;"	e	enum:__anon1
+_ISwalnum	wctype.h	/^  _ISwalnum = _ISwbit (__ISwalnum)	\/* Alphanumeric.  *\/$/;"	e	enum:__anon9
+_ISwalpha	wctype.h	/^  _ISwalpha = _ISwbit (__ISwalpha),	\/* Alphabetic.  *\/$/;"	e	enum:__anon9
+_ISwbit	wctype.h	62;"	d
+_ISwblank	wctype.h	/^  _ISwblank = _ISwbit (__ISwblank),	\/* Blank (usually SPC and TAB).  *\/$/;"	e	enum:__anon9
+_ISwcntrl	wctype.h	/^  _ISwcntrl = _ISwbit (__ISwcntrl),	\/* Control character.  *\/$/;"	e	enum:__anon9
+_ISwdigit	wctype.h	/^  _ISwdigit = _ISwbit (__ISwdigit),	\/* Numeric.  *\/$/;"	e	enum:__anon9
+_ISwgraph	wctype.h	/^  _ISwgraph = _ISwbit (__ISwgraph),	\/* Graphical.  *\/$/;"	e	enum:__anon9
+_ISwlower	wctype.h	/^  _ISwlower = _ISwbit (__ISwlower),	\/* lowercase.  *\/$/;"	e	enum:__anon9
+_ISwprint	wctype.h	/^  _ISwprint = _ISwbit (__ISwprint),	\/* Printing.  *\/$/;"	e	enum:__anon9
+_ISwpunct	wctype.h	/^  _ISwpunct = _ISwbit (__ISwpunct),	\/* Punctuation.  *\/$/;"	e	enum:__anon9
+_ISwspace	wctype.h	/^  _ISwspace = _ISwbit (__ISwspace),	\/* Whitespace.  *\/$/;"	e	enum:__anon9
+_ISwupper	wctype.h	/^  _ISwupper = _ISwbit (__ISwupper),	\/* UPPERCASE.  *\/$/;"	e	enum:__anon9
+_ISwxdigit	wctype.h	/^  _ISwxdigit = _ISwbit (__ISwxdigit),	\/* Hexadecimal numeric.  *\/$/;"	e	enum:__anon9
+_ISxdigit	ctype.h	/^  _ISxdigit = _ISbit (4),	\/* Hexadecimal numeric.  *\/$/;"	e	enum:__anon1
+_LIBC_LIMITS_H_	limits.h	23;"	d
+_LIB_VERSION	math.h	/^extern _LIB_VERSION_TYPE _LIB_VERSION;$/;"	x
+_LIB_VERSION_TYPE	math.h	/^} _LIB_VERSION_TYPE;$/;"	t	typeref:enum:__anon3
+_LIMITS_H	limits.h	42;"	d
+_LOCALE_H	locale.h	23;"	d
+_MATH_H	math.h	24;"	d
+_Mdouble_	complex.h	100;"	d
+_Mdouble_	complex.h	104;"	d
+_Mdouble_	complex.h	71;"	d
+_Mdouble_	complex.h	74;"	d
+_Mdouble_	complex.h	81;"	d
+_Mdouble_	complex.h	84;"	d
+_Mdouble_	math.h	127;"	d
+_Mdouble_	math.h	133;"	d
+_Mdouble_	math.h	65;"	d
+_Mdouble_	math.h	70;"	d
+_Mdouble_	math.h	84;"	d
+_Mdouble_	math.h	89;"	d
+_Mdouble_BEGIN_NAMESPACE	math.h	129;"	d
+_Mdouble_BEGIN_NAMESPACE	math.h	134;"	d
+_Mdouble_BEGIN_NAMESPACE	math.h	67;"	d
+_Mdouble_BEGIN_NAMESPACE	math.h	71;"	d
+_Mdouble_BEGIN_NAMESPACE	math.h	86;"	d
+_Mdouble_BEGIN_NAMESPACE	math.h	90;"	d
+_Mdouble_END_NAMESPACE	math.h	130;"	d
+_Mdouble_END_NAMESPACE	math.h	135;"	d
+_Mdouble_END_NAMESPACE	math.h	68;"	d
+_Mdouble_END_NAMESPACE	math.h	72;"	d
+_Mdouble_END_NAMESPACE	math.h	87;"	d
+_Mdouble_END_NAMESPACE	math.h	91;"	d
+_Mfloat_	complex.h	79;"	d
+_Mfloat_	math.h	82;"	d
+_Mlong_double_	complex.h	98;"	d
+_Mlong_double_	math.h	125;"	d
+_POSIX_	math.h	/^  _POSIX_,$/;"	e	enum:__anon3
+_SETJMP_H	setjmp.h	23;"	d
+_SIGNAL_H	signal.h	25;"	d
+_STDINT_H	stdint.h	23;"	d
+_STDIO_H	stdio.h	26;"	d
+_STDIO_USES_IOSTREAM	stdio.h	72;"	d
+_STDLIB_H	stdlib.h	37;"	d
+_STRING_H	string.h	23;"	d
+_SVID_	math.h	/^  _SVID_,	\/* According to System V, release 4.  *\/$/;"	e	enum:__anon3
+_TGMATH_H	tgmath.h	23;"	d
+_TIME_H	time.h	26;"	d
+_TR1_FLOAT_H	c++/4.8/tr1/float.h	30;"	d
+_TR1_STDARG_H	c++/4.8/tr1/stdarg.h	30;"	d
+_TR1_STDBOOL_H	c++/4.8/tr1/stdbool.h	30;"	d
+_VA_LIST_DEFINED	stdio.h	80;"	d
+_WCHAR_H	wchar.h	26;"	d
+_WCTYPE_H	wctype.h	29;"	d
+_WINT_T	wchar.h	60;"	d
+_XOPEN_	math.h	/^  _XOPEN_,	\/* Nowadays also Unix98.  *\/$/;"	e	enum:__anon3
+__ASSERT_FUNCTION	assert.h	106;"	d
+__ASSERT_VOID_CAST	assert.h	26;"	d
+__ASSERT_VOID_CAST	assert.h	38;"	d
+__ASSERT_VOID_CAST	assert.h	40;"	d
+__COMPAR_FN_T	stdlib.h	741;"	d
+__CORRECT_ISO_CPP_STRING_H_PROTO	string.h	40;"	d
+__CORRECT_ISO_CPP_WCHAR_H_PROTO	wchar.h	75;"	d
+__FILE	stdio.h	/^typedef struct _IO_FILE __FILE;$/;"	t	typeref:struct:_IO_FILE
+__FILE_defined	stdio.h	56;"	d
+__INT64_C	stdint.h	145;"	d
+__INT64_C	stdint.h	148;"	d
+__ISwalnum	wctype.h	/^  __ISwalnum = 11,			\/* Alphanumeric.  *\/$/;"	e	enum:__anon9
+__ISwalpha	wctype.h	/^  __ISwalpha = 2,			\/* Alphabetic.  *\/$/;"	e	enum:__anon9
+__ISwblank	wctype.h	/^  __ISwblank = 8,			\/* Blank (usually SPC and TAB).  *\/$/;"	e	enum:__anon9
+__ISwcntrl	wctype.h	/^  __ISwcntrl = 9,			\/* Control character.  *\/$/;"	e	enum:__anon9
+__ISwdigit	wctype.h	/^  __ISwdigit = 3,			\/* Numeric.  *\/$/;"	e	enum:__anon9
+__ISwgraph	wctype.h	/^  __ISwgraph = 7,			\/* Graphical.  *\/$/;"	e	enum:__anon9
+__ISwlower	wctype.h	/^  __ISwlower = 1,			\/* lowercase.  *\/$/;"	e	enum:__anon9
+__ISwprint	wctype.h	/^  __ISwprint = 6,			\/* Printing.  *\/$/;"	e	enum:__anon9
+__ISwpunct	wctype.h	/^  __ISwpunct = 10,			\/* Punctuation.  *\/$/;"	e	enum:__anon9
+__ISwspace	wctype.h	/^  __ISwspace = 5,			\/* Whitespace.  *\/$/;"	e	enum:__anon9
+__ISwupper	wctype.h	/^  __ISwupper = 0,			\/* UPPERCASE.  *\/$/;"	e	enum:__anon9
+__ISwxdigit	wctype.h	/^  __ISwxdigit = 4,			\/* Hexadecimal numeric.  *\/$/;"	e	enum:__anon9
+__MATHCALL	complex.h	108;"	d
+__MATHCALL	complex.h	63;"	d
+__MATHCALL	math.h	143;"	d
+__MATHCALL	math.h	52;"	d
+__MATHCALLX	math.h	57;"	d
+__MATHDECL	complex.h	107;"	d
+__MATHDECL	complex.h	65;"	d
+__MATHDECL	math.h	142;"	d
+__MATHDECL	math.h	54;"	d
+__MATHDECLX	math.h	59;"	d
+__MATHDECL_1	complex.h	106;"	d
+__MATHDECL_1	complex.h	68;"	d
+__MATHDECL_1	complex.h	92;"	d
+__MATHDECL_1	complex.h	93;"	d
+__MATHDECL_1	math.h	113;"	d
+__MATHDECL_1	math.h	117;"	d
+__MATHDECL_1	math.h	141;"	d
+__MATHDECL_1	math.h	62;"	d
+__MATHDECL_2	math.h	114;"	d
+__MATH_DECLARE_LDOUBLE	math.h	131;"	d
+__MATH_PRECNAME	complex.h	101;"	d
+__MATH_PRECNAME	complex.h	105;"	d
+__MATH_PRECNAME	complex.h	72;"	d
+__MATH_PRECNAME	complex.h	75;"	d
+__MATH_PRECNAME	complex.h	82;"	d
+__MATH_PRECNAME	complex.h	85;"	d
+__MATH_PRECNAME	math.h	128;"	d
+__MATH_PRECNAME	math.h	136;"	d
+__MATH_PRECNAME	math.h	66;"	d
+__MATH_PRECNAME	math.h	73;"	d
+__MATH_PRECNAME	math.h	85;"	d
+__MATH_PRECNAME	math.h	92;"	d
+__NO_MATH_INLINES	math.h	406;"	d
+__PRI64_PREFIX	inttypes.h	44;"	d
+__PRI64_PREFIX	inttypes.h	47;"	d
+__PRIPTR_PREFIX	inttypes.h	45;"	d
+__PRIPTR_PREFIX	inttypes.h	48;"	d
+__REDIRECT	wchar.h	/^extern int __REDIRECT (fwscanf, (__FILE *__restrict __stream,$/;"	p	signature:(fwscanf, (__FILE *__restrict __stream, const wchar_t *__restrict __format, ...), __isoc99_fwscanf)
+__REDIRECT	wchar.h	/^extern int __REDIRECT (vfwscanf, (__FILE *__restrict __s,$/;"	p	signature:(vfwscanf, (__FILE *__restrict __s, const wchar_t *__restrict __format, __gnuc_va_list __arg), __isoc99_vfwscanf)
+__REDIRECT	wchar.h	/^extern int __REDIRECT (vwscanf, (const wchar_t *__restrict __format,$/;"	p	signature:(vwscanf, (const wchar_t *__restrict __format, __gnuc_va_list __arg), __isoc99_vwscanf)
+__REDIRECT	wchar.h	/^extern int __REDIRECT (wscanf, (const wchar_t *__restrict __format, ...),$/;"	p	signature:(wscanf, (const wchar_t *__restrict __format, ...), __isoc99_wscanf)
+__REDIRECT_NTH	math.h	/^extern double __REDIRECT_NTH (nexttoward, (double __x, long double __y),$/;"	p	signature:(nexttoward, (double __x, long double __y), nextafter)
+__REDIRECT_NTH	math.h	/^extern float __REDIRECT_NTH (nexttowardf, (float __x, long double __y),$/;"	p	signature:(nexttowardf, (float __x, long double __y), __nldbl_nexttowardf)
+__REDIRECT_NTH	math.h	/^extern long double __REDIRECT_NTH (nexttowardl,$/;"	p	signature:(nexttowardl, (long double __x, long double __y), nextafter)
+__REDIRECT_NTH	stdio.h	/^extern int __REDIRECT_NTH (sscanf, (const char *__restrict __s,$/;"	p	signature:(sscanf, (const char *__restrict __s, const char *__restrict __format, ...), __isoc99_sscanf)
+__REDIRECT_NTH	stdio.h	/^extern int __REDIRECT_NTH (vsscanf,$/;"	p	signature:(vsscanf, (const char *__restrict __s, const char *__restrict __format, _G_va_list __arg), __isoc99_vsscanf)
+__REDIRECT_NTH	wchar.h	/^extern int __REDIRECT_NTH (swscanf, (const wchar_t *__restrict __s,$/;"	p	signature:(swscanf, (const wchar_t *__restrict __s, const wchar_t *__restrict __format, ...), __isoc99_swscanf)
+__REDIRECT_NTH	wchar.h	/^extern int __REDIRECT_NTH (vswscanf, (const wchar_t *__restrict __s,$/;"	p	signature:(vswscanf, (const wchar_t *__restrict __s, const wchar_t *__restrict __format, __gnuc_va_list __arg), __isoc99_vswscanf)
+__TGMATH_BINARY_FIRST_REAL_ONLY	tgmath.h	89;"	d
+__TGMATH_BINARY_REAL_IMAG	tgmath.h	209;"	d
+__TGMATH_BINARY_REAL_ONLY	tgmath.h	97;"	d
+__TGMATH_TERNARY_FIRST_SECOND_REAL_ONLY	tgmath.h	115;"	d
+__TGMATH_TERNARY_REAL_ONLY	tgmath.h	133;"	d
+__TGMATH_UNARY_IMAG	tgmath.h	174;"	d
+__TGMATH_UNARY_REAL_IMAG	tgmath.h	160;"	d
+__TGMATH_UNARY_REAL_IMAG_RET_REAL	tgmath.h	187;"	d
+__TGMATH_UNARY_REAL_ONLY	tgmath.h	73;"	d
+__TGMATH_UNARY_REAL_RET_ONLY	tgmath.h	81;"	d
+__THROW	signal.h	/^		      const sigset_t *__right) __THROW __nonnull ((1, 2, 3));$/;"	p	signature:(1, 2, 3)
+__THROW	signal.h	/^		     const sigset_t *__right) __THROW __nonnull ((1, 2, 3));$/;"	p	signature:(1, 2, 3)
+__THROW	signal.h	/^     __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	signal.h	/^extern int sigaddset (sigset_t *__set, int __signo) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	signal.h	/^extern int sigdelset (sigset_t *__set, int __signo) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	signal.h	/^extern int sigemptyset (sigset_t *__set) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	signal.h	/^extern int sigfillset (sigset_t *__set) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	signal.h	/^extern int sigisemptyset (const sigset_t *__set) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	signal.h	/^extern int sigpending (sigset_t *__set) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	stdlib.h	/^			  __locale_t __loc) __THROW __nonnull ((1, 4));$/;"	p	signature:(1, 4)
+__THROW	stdlib.h	/^			size_t __statelen) __THROW __nonnull ((2));$/;"	p	signature:(2)
+__THROW	stdlib.h	/^		      double *__restrict __result) __THROW __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__THROW	stdlib.h	/^		     char **__restrict __endptr) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	stdlib.h	/^		     int32_t *__restrict __result) __THROW __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__THROW	stdlib.h	/^		     struct drand48_data *__buffer) __THROW __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__THROW	stdlib.h	/^		   size_t __len) __THROW __nonnull ((3, 4, 5));$/;"	p	signature:(3, 4, 5)
+__THROW	stdlib.h	/^     __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	stdlib.h	/^     __THROW __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__THROW	stdlib.h	/^     __THROW __nonnull ((1, 3));$/;"	p	signature:(1, 3)
+__THROW	stdlib.h	/^     __THROW __nonnull ((1, 4));$/;"	p	signature:(1, 4)
+__THROW	stdlib.h	/^     __THROW __nonnull ((2));$/;"	p	signature:(2)
+__THROW	stdlib.h	/^     __THROW __nonnull ((2, 4));$/;"	p	signature:(2, 4)
+__THROW	stdlib.h	/^     __THROW __nonnull ((3, 4, 5));$/;"	p	signature:(3, 4, 5)
+__THROW	stdlib.h	/^extern char *mktemp (char *__template) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	stdlib.h	/^extern char *setstate (char *__statebuf) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	stdlib.h	/^extern double erand48 (unsigned short int __xsubi[3]) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	stdlib.h	/^extern int at_quick_exit (void (*__func) (void)) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	stdlib.h	/^extern int atexit (void (*__func) (void)) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	stdlib.h	/^extern int putenv (char *__string) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	stdlib.h	/^extern int unsetenv (const char *__name) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	stdlib.h	/^extern void lcong48 (unsigned short int __param[7]) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	stdlib.h	/^extern void setkey (const char *__key) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	string.h	/^			 __locale_t __l) __THROW __nonnull ((2, 4));$/;"	p	signature:(2, 4)
+__THROW	string.h	/^		      size_t __n) __THROW __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__THROW	string.h	/^		     size_t __n) __THROW __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__THROW	string.h	/^     __THROW __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__THROW	string.h	/^     __THROW __nonnull ((2));$/;"	p	signature:(2)
+__THROW	string.h	/^     __THROW __nonnull ((2, 3));$/;"	p	signature:(2, 3)
+__THROW	string.h	/^extern char *basename (const char *__filename) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	string.h	/^extern char *strfry (char *__string) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	string.h	/^extern void *memfrob (void *__s, size_t __n) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	string.h	/^extern void *memset (void *__s, int __c, size_t __n) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	string.h	/^extern void __bzero (void *__s, size_t __n) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	string.h	/^extern void bzero (void *__s, size_t __n) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	time.h	/^     __THROW __nonnull ((1));$/;"	p	signature:(1)
+__UINT64_C	stdint.h	146;"	d
+__UINT64_C	stdint.h	149;"	d
+__WAIT_INT	stdlib.h	50;"	d
+__WAIT_STATUS	stdlib.h	63;"	d
+__WAIT_STATUS_DEFN	stdlib.h	64;"	d
+____FILE_defined	stdio.h	66;"	d
+____gwchar_t_defined	inttypes.h	40;"	d
+____mbstate_t_defined	wchar.h	80;"	d
+__a	stdlib.h	/^    __extension__ unsigned long long int __a;	\/* Factor in congruential$/;"	m	struct:drand48_data	access:public
+__anon10::quot	inttypes.h	/^    long int quot;		\/* Quotient.  *\/$/;"	m	struct:__anon10	access:public
+__anon10::rem	inttypes.h	/^    long int rem;		\/* Remainder.  *\/$/;"	m	struct:__anon10	access:public
+__anon4::quot	stdlib.h	/^    int quot;			\/* Quotient.  *\/$/;"	m	struct:__anon4	access:public
+__anon4::rem	stdlib.h	/^    int rem;			\/* Remainder.  *\/$/;"	m	struct:__anon4	access:public
+__anon5::quot	stdlib.h	/^    long int quot;		\/* Quotient.  *\/$/;"	m	struct:__anon5	access:public
+__anon5::rem	stdlib.h	/^    long int rem;		\/* Remainder.  *\/$/;"	m	struct:__anon5	access:public
+__anon6::quot	stdlib.h	/^    long long int quot;		\/* Quotient.  *\/$/;"	m	struct:__anon6	access:public
+__anon6::rem	stdlib.h	/^    long long int rem;		\/* Remainder.  *\/$/;"	m	struct:__anon6	access:public
+__anon7::__anon8::__wch	wchar.h	/^    __WINT_TYPE__ __wch;$/;"	m	union:__anon7::__anon8	access:public
+__anon7::__anon8::__wchb	wchar.h	/^    char __wchb[4];$/;"	m	union:__anon7::__anon8	access:public
+__anon7::__count	wchar.h	/^  int __count;$/;"	m	struct:__anon7	access:public
+__anon7::__value	wchar.h	/^  } __value;		\/* Value so far.  *\/$/;"	m	struct:__anon7	typeref:union:__anon7::__anon8	access:public
+__attribute_deprecated__	signal.h	/^     __THROW __attribute_deprecated__;$/;"	v
+__attribute_deprecated__	signal.h	/^extern int sigblock (int __mask) __THROW __attribute_deprecated__;$/;"	v
+__attribute_deprecated__	signal.h	/^extern int siggetmask (void) __THROW __attribute_deprecated__;$/;"	v
+__attribute_deprecated__	signal.h	/^extern int sigsetmask (int __mask) __THROW __attribute_deprecated__;$/;"	v
+__attribute_deprecated__	stdio.h	/^extern char *gets (char *__s) __wur __attribute_deprecated__;$/;"	v
+__attribute_malloc__	string.h	/^     __THROW __attribute_malloc__ __nonnull ((1));$/;"	p	signature:(1)
+__attribute_malloc__	wchar.h	/^extern wchar_t *wcsdup (const wchar_t *__s) __THROW __attribute_malloc__;$/;"	v
+__attribute_pure__	string.h	/^      __THROW __asm ("memchr") __attribute_pure__ __nonnull ((1));$/;"	p	signature:(1)
+__attribute_pure__	string.h	/^      __THROW __asm ("memrchr") __attribute_pure__ __nonnull ((1));$/;"	p	signature:(1)
+__attribute_pure__	string.h	/^      __THROW __attribute_pure__ __nonnull ((1));$/;"	p	signature:(1)
+__attribute_pure__	string.h	/^     __THROW __asm ("index") __attribute_pure__ __nonnull ((1));$/;"	p	signature:(1)
+__attribute_pure__	string.h	/^     __THROW __asm ("rawmemchr") __attribute_pure__ __nonnull ((1));$/;"	p	signature:(1)
+__attribute_pure__	string.h	/^     __THROW __asm ("rindex") __attribute_pure__ __nonnull ((1));$/;"	p	signature:(1)
+__attribute_pure__	string.h	/^     __THROW __asm ("strcasestr") __attribute_pure__ __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__attribute_pure__	string.h	/^     __THROW __asm ("strchr") __attribute_pure__ __nonnull ((1));$/;"	p	signature:(1)
+__attribute_pure__	string.h	/^     __THROW __asm ("strchrnul") __attribute_pure__ __nonnull ((1));$/;"	p	signature:(1)
+__attribute_pure__	string.h	/^     __THROW __asm ("strpbrk") __attribute_pure__ __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__attribute_pure__	string.h	/^     __THROW __asm ("strrchr") __attribute_pure__ __nonnull ((1));$/;"	p	signature:(1)
+__attribute_pure__	string.h	/^     __THROW __asm ("strstr") __attribute_pure__ __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__attribute_pure__	string.h	/^     __THROW __attribute_pure__ __nonnull ((1));$/;"	p	signature:(1)
+__attribute_pure__	string.h	/^     __THROW __attribute_pure__ __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__attribute_pure__	string.h	/^     __THROW __attribute_pure__ __nonnull ((1, 2, 3));$/;"	p	signature:(1, 2, 3)
+__attribute_pure__	string.h	/^     __THROW __attribute_pure__ __nonnull ((1, 2, 4));$/;"	p	signature:(1, 2, 4)
+__attribute_pure__	string.h	/^     __THROW __attribute_pure__ __nonnull ((1, 3));$/;"	p	signature:(1, 3)
+__attribute_pure__	wchar.h	/^     __THROW __attribute_pure__;$/;"	v
+__attribute_pure__	wchar.h	/^extern int mbsinit (const mbstate_t *__ps) __THROW __attribute_pure__;$/;"	v
+__attribute_pure__	wchar.h	/^extern size_t wcslen (const wchar_t *__s) __THROW __attribute_pure__;$/;"	v
+__attribute_warn_unused_result__	stdlib.h	/^     __THROW __attribute_warn_unused_result__;$/;"	v
+__c	stdlib.h	/^    unsigned short int __c;	\/* Additive const. in congruential formula.  *\/$/;"	m	struct:drand48_data	access:public
+__clock_t_defined	time.h	53;"	d
+__clockid_t_defined	time.h	86;"	d
+__clockid_time_t	time.h	94;"	d
+__compar_d_fn_t	stdlib.h	/^typedef int (*__compar_d_fn_t) (const void *, const void *, void *);$/;"	t
+__compar_fn_t	stdlib.h	/^typedef int (*__compar_fn_t) (const void *, const void *);$/;"	t
+__count	wchar.h	/^  int __count;$/;"	m	struct:__anon7	access:public
+__daylight	time.h	/^extern int __daylight;		\/* If daylight-saving time is ever in use.  *\/$/;"	x
+__error_t_defined	errno.h	69;"	d
+__exception	math.h	/^struct __exception$/;"	s
+__exception::arg1	math.h	/^    double arg1;$/;"	m	struct:__exception	access:public
+__exception::arg2	math.h	/^    double arg2;$/;"	m	struct:__exception	access:public
+__exception::name	math.h	/^    char *name;$/;"	m	struct:__exception	access:public
+__exception::retval	math.h	/^    double retval;$/;"	m	struct:__exception	access:public
+__exception::type	math.h	/^    int type;$/;"	m	struct:__exception	access:public
+__exctype	ctype.h	/^__exctype (isalnum);$/;"	p	signature:(isalnum)
+__exctype	ctype.h	/^__exctype (isblank);$/;"	p	signature:(isblank)
+__exctype	ctype.h	102;"	d
+__exctype_l	ctype.h	264;"	d
+__floating_type	tgmath.h	50;"	d
+__floating_type	tgmath.h	55;"	d
+__gwchar_t	inttypes.h	/^typedef __WCHAR_TYPE__ __gwchar_t;$/;"	t
+__gwchar_t	inttypes.h	/^typedef wchar_t __gwchar_t;$/;"	t
+__gwchar_t	inttypes.h	32;"	d
+__init	stdlib.h	/^    unsigned short int __init;	\/* Flag for initializing.  *\/$/;"	m	struct:drand48_data	access:public
+__int8_t_defined	stdint.h	35;"	d
+__int_n_cs_precedes	locale.h	/^  char __int_n_cs_precedes;$/;"	m	struct:lconv	access:public
+__int_n_sep_by_space	locale.h	/^  char __int_n_sep_by_space;$/;"	m	struct:lconv	access:public
+__int_n_sign_posn	locale.h	/^  char __int_n_sign_posn;$/;"	m	struct:lconv	access:public
+__int_p_cs_precedes	locale.h	/^  char __int_p_cs_precedes;$/;"	m	struct:lconv	access:public
+__int_p_sep_by_space	locale.h	/^  char __int_p_sep_by_space;$/;"	m	struct:lconv	access:public
+__int_p_sign_posn	locale.h	/^  char __int_p_sign_posn;$/;"	m	struct:lconv	access:public
+__intptr_t_defined	stdint.h	120;"	d
+__intptr_t_defined	stdint.h	126;"	d
+__isalnum_l	ctype.h	305;"	d
+__isalpha_l	ctype.h	306;"	d
+__isascii	ctype.h	99;"	d
+__isascii_l	ctype.h	320;"	d
+__isblank_l	ctype.h	317;"	d
+__iscntrl_l	ctype.h	307;"	d
+__isctype	ctype.h	88;"	d
+__isctype_f	ctype.h	91;"	d
+__isctype_l	ctype.h	261;"	d
+__isdigit_l	ctype.h	308;"	d
+__isgraph_l	ctype.h	310;"	d
+__isleap	time.h	310;"	d
+__islower_l	ctype.h	309;"	d
+__isoc99_fwscanf	wchar.h	/^extern int __isoc99_fwscanf (__FILE *__restrict __stream,$/;"	p	signature:(__FILE *__restrict __stream, const wchar_t *__restrict __format, ...)
+__isoc99_vfwscanf	wchar.h	/^extern int __isoc99_vfwscanf (__FILE *__restrict __s,$/;"	p	signature:(__FILE *__restrict __s, const wchar_t *__restrict __format, __gnuc_va_list __arg)
+__isoc99_vwscanf	wchar.h	/^extern int __isoc99_vwscanf (const wchar_t *__restrict __format,$/;"	p	signature:(const wchar_t *__restrict __format, __gnuc_va_list __arg)
+__isoc99_wscanf	wchar.h	/^extern int __isoc99_wscanf (const wchar_t *__restrict __format, ...);$/;"	p	signature:(const wchar_t *__restrict __format, ...)
+__isprint_l	ctype.h	311;"	d
+__ispunct_l	ctype.h	312;"	d
+__isspace_l	ctype.h	313;"	d
+__isupper_l	ctype.h	314;"	d
+__iswxxx_defined	wctype.h	47;"	d
+__isxdigit_l	ctype.h	315;"	d
+__jmp_buf_tag	setjmp.h	/^struct __jmp_buf_tag$/;"	s
+__jmp_buf_tag::__jmpbuf	setjmp.h	/^    __jmp_buf __jmpbuf;		\/* Calling environment.  *\/$/;"	m	struct:__jmp_buf_tag	access:public
+__jmp_buf_tag::__mask_was_saved	setjmp.h	/^    int __mask_was_saved;	\/* Saved the signal mask?  *\/$/;"	m	struct:__jmp_buf_tag	access:public
+__jmp_buf_tag::__saved_mask	setjmp.h	/^    __sigset_t __saved_mask;	\/* Saved signal mask.  *\/$/;"	m	struct:__jmp_buf_tag	access:public
+__jmpbuf	setjmp.h	/^    __jmp_buf __jmpbuf;		\/* Calling environment.  *\/$/;"	m	struct:__jmp_buf_tag	access:public
+__ldiv_t_defined	stdlib.h	110;"	d
+__lldiv_t_defined	stdlib.h	122;"	d
+__malloc_and_calloc_defined	stdlib.h	463;"	d
+__mask_was_saved	setjmp.h	/^    int __mask_was_saved;	\/* Saved the signal mask?  *\/$/;"	m	struct:__jmp_buf_tag	access:public
+__mbstate_t	wchar.h	/^} __mbstate_t;$/;"	t	typeref:struct:__anon7
+__mbstate_t_defined	wchar.h	108;"	d
+__need_Emath	errno.h	36;"	d
+__need_FILE	stdio.h	36;"	d
+__need_FILE	stdio.h	58;"	d
+__need_FILE	wchar.h	34;"	d
+__need_NULL	locale.h	27;"	d
+__need_NULL	stdio.h	32;"	d
+__need_NULL	stdlib.h	30;"	d
+__need_NULL	string.h	31;"	d
+__need_NULL	time.h	36;"	d
+__need_NULL	wchar.h	46;"	d
+__need___FILE	stdio.h	37;"	d
+__need___FILE	stdio.h	68;"	d
+__need___FILE	wchar.h	32;"	d
+__need___va_list	wchar.h	38;"	d
+__need_clock_t	time.h	66;"	d
+__need_error_t	errno.h	71;"	d
+__need_getopt	stdio.h	927;"	d
+__need_iswxxx	wchar.h	878;"	d
+__need_iswxxx	wctype.h	41;"	d
+__need_malloc_and_calloc	stdlib.h	966;"	d
+__need_mbstate_t	wchar.h	899;"	d
+__need_mbstate_t	wchar.h	96;"	d
+__need_sig_atomic_t	signal.h	43;"	d
+__need_sigset_t	signal.h	51;"	d
+__need_size_t	signal.h	341;"	d
+__need_size_t	stdio.h	31;"	d
+__need_size_t	stdlib.h	27;"	d
+__need_size_t	string.h	30;"	d
+__need_size_t	time.h	35;"	d
+__need_size_t	wchar.h	44;"	d
+__need_time_t	time.h	82;"	d
+__need_timer_t	time.h	106;"	d
+__need_timespec	signal.h	74;"	d
+__need_timespec	time.h	127;"	d
+__need_wchar_t	inttypes.h	36;"	d
+__need_wchar_t	stdlib.h	29;"	d
+__need_wchar_t	wchar.h	45;"	d
+__need_wint_t	wchar.h	49;"	d
+__need_wint_t	wchar.h	50;"	d
+__need_wint_t	wchar.h	900;"	d
+__need_wint_t	wctype.h	32;"	d
+__off64_t_defined	stdio.h	98;"	d
+__off_t_defined	stdio.h	94;"	d
+__old_x	stdlib.h	/^    unsigned short int __old_x[3]; \/* Old state.  *\/$/;"	m	struct:drand48_data	access:public
+__pid_t_defined	signal.h	62;"	d
+__pid_t_defined	time.h	175;"	d
+__saved_mask	setjmp.h	/^    __sigset_t __saved_mask;	\/* Saved signal mask.  *\/$/;"	m	struct:__jmp_buf_tag	access:public
+__sig_atomic_t_defined	signal.h	38;"	d
+__sighandler_t	signal.h	/^typedef void (*__sighandler_t) (int);$/;"	t
+__sigpause	signal.h	/^extern int __sigpause (int __sig_or_mask, int __is_sig);$/;"	p	signature:(int __sig_or_mask, int __is_sig)
+__sigset_t_defined	signal.h	48;"	d
+__ssize_t_defined	stdio.h	103;"	d
+__tgmath_real_type	tgmath.h	65;"	d
+__tgmath_real_type_sub	tgmath.h	60;"	d
+__tgml	tgmath.h	39;"	d
+__tgml	tgmath.h	41;"	d
+__time_t_defined	time.h	69;"	d
+__timer_t_defined	time.h	98;"	d
+__timespec_defined	time.h	114;"	d
+__timezone	time.h	/^extern long int __timezone;	\/* Seconds west of UTC.  *\/$/;"	x
+__tm_gmtoff	time.h	/^  long int __tm_gmtoff;		\/* Seconds east of UTC.  *\/$/;"	m	struct:tm	access:public
+__tm_zone	time.h	/^  const char *__tm_zone;	\/* Timezone abbreviation.  *\/$/;"	m	struct:tm	access:public
+__toascii	ctype.h	100;"	d
+__toascii_l	ctype.h	321;"	d
+__tobody	ctype.h	163;"	d
+__tolower_l	ctype.h	295;"	d
+__toupper_l	ctype.h	297;"	d
+__tzname	time.h	/^extern char *__tzname[2];	\/* Current timezone names.  *\/$/;"	x
+__uid_t_defined	signal.h	68;"	d
+__uint32_t_defined	stdint.h	52;"	d
+__value	wchar.h	/^  } __value;		\/* Value so far.  *\/$/;"	m	struct:__anon7	typeref:union:__anon7::__anon8	access:public
+__wch	wchar.h	/^    __WINT_TYPE__ __wch;$/;"	m	union:__anon7::__anon8	access:public
+__wchb	wchar.h	/^    char __wchb[4];$/;"	m	union:__anon7::__anon8	access:public
+__wur	stdio.h	/^			  _IO_cookie_io_functions_t __io_funcs) __THROW __wur;$/;"	v
+__wur	stdio.h	/^     __THROW __attribute_malloc__ __wur;$/;"	v
+__wur	stdio.h	/^     __THROWNL __attribute__ ((__format__ (__printf__, 2, 0))) __wur;$/;"	v
+__wur	stdio.h	/^     __THROWNL __attribute__ ((__format__ (__printf__, 2, 3))) __wur;$/;"	v
+__wur	stdio.h	/^  __THROW __wur;$/;"	v
+__wur	stdio.h	/^extern FILE *fdopen (int __fd, const char *__modes) __THROW __wur;$/;"	v
+__wur	stdio.h	/^extern FILE *open_memstream (char **__bufloc, size_t *__sizeloc) __THROW __wur;$/;"	v
+__wur	stdio.h	/^extern char *tmpnam (char *__s) __THROW __wur;$/;"	v
+__wur	stdio.h	/^extern char *tmpnam_r (char *__s) __THROW __wur;$/;"	v
+__wur	stdio.h	/^extern int feof (FILE *__stream) __THROW __wur;$/;"	v
+__wur	stdio.h	/^extern int feof_unlocked (FILE *__stream) __THROW __wur;$/;"	v
+__wur	stdio.h	/^extern int ferror (FILE *__stream) __THROW __wur;$/;"	v
+__wur	stdio.h	/^extern int ferror_unlocked (FILE *__stream) __THROW __wur;$/;"	v
+__wur	stdio.h	/^extern int fileno (FILE *__stream) __THROW __wur;$/;"	v
+__wur	stdio.h	/^extern int fileno_unlocked (FILE *__stream) __THROW __wur;$/;"	v
+__wur	stdio.h	/^extern int ftrylockfile (FILE *__stream) __THROW __wur;$/;"	v
+__wur	stdlib.h	/^		       char *__restrict __resolved) __THROW __wur;$/;"	v
+__wur	stdlib.h	/^     __THROW __attribute__ ((__const__)) __wur;$/;"	v
+__wur	stdlib.h	/^     __THROW __attribute_malloc__ __wur;$/;"	v
+__wur	stdlib.h	/^extern char *l64a (long int __n) __THROW __wur;$/;"	v
+__wur	stdlib.h	/^extern char *ptsname (int __fd) __THROW __wur;$/;"	v
+__wur	stdlib.h	/^extern int abs (int __x) __THROW __attribute__ ((__const__)) __wur;$/;"	v
+__wur	stdlib.h	/^extern long int labs (long int __x) __THROW __attribute__ ((__const__)) __wur;$/;"	v
+__wur	stdlib.h	/^extern size_t __ctype_get_mb_cur_max (void) __THROW __wur;$/;"	v
+__wur	stdlib.h	/^extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;$/;"	v
+__wur	stdlib.h	/^extern void *valloc (size_t __size) __THROW __attribute_malloc__ __wur;$/;"	v
+__x	stdlib.h	/^    unsigned short int __x[3];	\/* Current state.  *\/$/;"	m	struct:drand48_data	access:public
+_sys_siglist	signal.h	/^extern const char *const _sys_siglist[_NSIG];$/;"	x
+_tolower	ctype.h	/^__exctype (_tolower);$/;"	v
+_tolower	ctype.h	236;"	d
+_toupper	ctype.h	/^__exctype (_toupper);$/;"	v
+_toupper	ctype.h	237;"	d
+acos	tgmath.h	253;"	d
+acosh	tgmath.h	272;"	d
+arg1	math.h	/^    double arg1;$/;"	m	struct:__exception	access:public
+arg2	math.h	/^    double arg2;$/;"	m	struct:__exception	access:public
+asin	tgmath.h	255;"	d
+asinh	tgmath.h	274;"	d
+assert	assert.h	25;"	d
+assert	assert.h	50;"	d
+assert	assert.h	88;"	d
+assert.h	assert.h	1;"	F
+assert_perror	assert.h	29;"	d
+assert_perror	assert.h	59;"	d
+assert_perror	assert.h	94;"	d
+atan	tgmath.h	257;"	d
+atan2	tgmath.h	259;"	d
+atanh	tgmath.h	276;"	d
+atoi	stdlib.h	/^__NTH (atoi (const char *__nptr))$/;"	f	signature:(const char *__nptr)
+atol	stdlib.h	/^__NTH (atol (const char *__nptr))$/;"	f	signature:(const char *__nptr)
+atoll	stdlib.h	/^__NTH (atoll (const char *__nptr))$/;"	f	signature:(const char *__nptr)
+btowc	wchar.h	/^__NTH (btowc (int __c))$/;"	f	signature:(int __c)
+carg	tgmath.h	437;"	d
+cbrt	tgmath.h	335;"	d
+ceil	tgmath.h	341;"	d
+cimag	tgmath.h	449;"	d
+clock_nanosleep	time.h	/^extern int clock_nanosleep (clockid_t __clock_id, int __flags,$/;"	p	signature:(clockid_t __clock_id, int __flags, const struct timespec *__req, struct timespec *__rem)
+clock_t	time.h	/^typedef __clock_t clock_t;$/;"	t
+clockid_t	time.h	/^typedef __clockid_t clockid_t;$/;"	t
+comparison_fn_t	stdlib.h	/^typedef __compar_fn_t comparison_fn_t;$/;"	t
+complex	complex.h	39;"	d
+complex.h	complex.h	1;"	F
+conj	tgmath.h	440;"	d
+copysign	tgmath.h	382;"	d
+cos	tgmath.h	262;"	d
+cosh	tgmath.h	279;"	d
+cproj	tgmath.h	443;"	d
+creal	tgmath.h	452;"	d
+ctype.h	ctype.h	1;"	F
+currency_symbol	locale.h	/^  char *currency_symbol;	\/* Local currency symbol.  *\/$/;"	m	struct:lconv	access:public
+cuserid	stdio.h	/^extern char *cuserid (char *__s);$/;"	p	signature:(char *__s)
+daylight	time.h	/^extern int daylight;$/;"	x
+decimal_point	locale.h	/^  char *decimal_point;		\/* Decimal point character.  *\/$/;"	m	struct:lconv	access:public
+div_t	stdlib.h	/^  } div_t;$/;"	t	typeref:struct:__anon4
+dprintf	stdio.h	/^extern int dprintf (int __fd, const char *__restrict __fmt, ...)$/;"	p	signature:(int __fd, const char *__restrict __fmt, ...)
+drand48_data	stdlib.h	/^struct drand48_data$/;"	s
+drand48_data::__a	stdlib.h	/^    __extension__ unsigned long long int __a;	\/* Factor in congruential$/;"	m	struct:drand48_data	access:public
+drand48_data::__c	stdlib.h	/^    unsigned short int __c;	\/* Additive const. in congruential formula.  *\/$/;"	m	struct:drand48_data	access:public
+drand48_data::__init	stdlib.h	/^    unsigned short int __init;	\/* Flag for initializing.  *\/$/;"	m	struct:drand48_data	access:public
+drand48_data::__old_x	stdlib.h	/^    unsigned short int __old_x[3]; \/* Old state.  *\/$/;"	m	struct:drand48_data	access:public
+drand48_data::__x	stdlib.h	/^    unsigned short int __x[3];	\/* Current state.  *\/$/;"	m	struct:drand48_data	access:public
+end_ptr	stdlib.h	/^    int32_t *end_ptr;		\/* Pointer behind state table.  *\/$/;"	m	struct:random_data	access:public
+erf	tgmath.h	385;"	d
+erfc	tgmath.h	386;"	d
+errno	errno.h	/^extern int errno;$/;"	x
+errno.h	errno.h	1;"	F
+error_t	errno.h	/^typedef int error_t;$/;"	t
+exp	tgmath.h	289;"	d
+exp2	tgmath.h	317;"	d
+expm1	tgmath.h	308;"	d
+fabs	tgmath.h	344;"	d
+fclose	stdio.h	/^extern int fclose (FILE *__stream);$/;"	p	signature:(FILE *__stream)
+fcloseall	stdio.h	/^extern int fcloseall (void);$/;"	p	signature:(void)
+fdim	tgmath.h	420;"	d
+fenv.h	fenv.h	1;"	F
+fflush	stdio.h	/^extern int fflush (FILE *__stream);$/;"	p	signature:(FILE *__stream)
+fflush_unlocked	stdio.h	/^extern int fflush_unlocked (FILE *__stream);$/;"	p	signature:(FILE *__stream)
+fgetc	stdio.h	/^extern int fgetc (FILE *__stream);$/;"	p	signature:(FILE *__stream)
+fgetc_unlocked	stdio.h	/^extern int fgetc_unlocked (FILE *__stream);$/;"	p	signature:(FILE *__stream)
+fgetpos	stdio.h	/^extern int fgetpos (FILE *__restrict __stream, fpos_t *__restrict __pos);$/;"	p	signature:(FILE *__restrict __stream, fpos_t *__restrict __pos)
+fgetpos64	stdio.h	/^extern int fgetpos64 (FILE *__restrict __stream, fpos64_t *__restrict __pos);$/;"	p	signature:(FILE *__restrict __stream, fpos64_t *__restrict __pos)
+fgetwc	wchar.h	/^extern wint_t fgetwc (__FILE *__stream);$/;"	p	signature:(__FILE *__stream)
+fgetwc_unlocked	wchar.h	/^extern wint_t fgetwc_unlocked (__FILE *__stream);$/;"	p	signature:(__FILE *__stream)
+fgetws	wchar.h	/^extern wchar_t *fgetws (wchar_t *__restrict __ws, int __n,$/;"	p	signature:(wchar_t *__restrict __ws, int __n, __FILE *__restrict __stream)
+fgetws_unlocked	wchar.h	/^extern wchar_t *fgetws_unlocked (wchar_t *__restrict __ws, int __n,$/;"	p	signature:(wchar_t *__restrict __ws, int __n, __FILE *__restrict __stream)
+float.h	c++/4.8/tr1/float.h	1;"	F
+floor	tgmath.h	347;"	d
+fma	tgmath.h	430;"	d
+fmax	tgmath.h	423;"	d
+fmin	tgmath.h	426;"	d
+fmod	tgmath.h	350;"	d
+fpclassify	math.h	210;"	d
+fpclassify	math.h	213;"	d
+fpos64_t	stdio.h	/^typedef _G_fpos64_t fpos64_t;$/;"	t
+fpos_t	stdio.h	/^typedef _G_fpos_t fpos_t;$/;"	t
+fprintf	stdio.h	/^extern int fprintf (FILE *__restrict __stream,$/;"	p	signature:(FILE *__restrict __stream, const char *__restrict __format, ...)
+fptr	stdlib.h	/^    int32_t *fptr;		\/* Front pointer.  *\/$/;"	m	struct:random_data	access:public
+fputc	stdio.h	/^extern int fputc (int __c, FILE *__stream);$/;"	p	signature:(int __c, FILE *__stream)
+fputc_unlocked	stdio.h	/^extern int fputc_unlocked (int __c, FILE *__stream);$/;"	p	signature:(int __c, FILE *__stream)
+fputs	stdio.h	/^extern int fputs (const char *__restrict __s, FILE *__restrict __stream);$/;"	p	signature:(const char *__restrict __s, FILE *__restrict __stream)
+fputs_unlocked	stdio.h	/^extern int fputs_unlocked (const char *__restrict __s,$/;"	p	signature:(const char *__restrict __s, FILE *__restrict __stream)
+fputwc	wchar.h	/^extern wint_t fputwc (wchar_t __wc, __FILE *__stream);$/;"	p	signature:(wchar_t __wc, __FILE *__stream)
+fputwc_unlocked	wchar.h	/^extern wint_t fputwc_unlocked (wchar_t __wc, __FILE *__stream);$/;"	p	signature:(wchar_t __wc, __FILE *__stream)
+fputws	wchar.h	/^extern int fputws (const wchar_t *__restrict __ws,$/;"	p	signature:(const wchar_t *__restrict __ws, __FILE *__restrict __stream)
+fputws_unlocked	wchar.h	/^extern int fputws_unlocked (const wchar_t *__restrict __ws,$/;"	p	signature:(const wchar_t *__restrict __ws, __FILE *__restrict __stream)
+frac_digits	locale.h	/^  char frac_digits;		\/* Local fractional digits.  *\/$/;"	m	struct:lconv	access:public
+frexp	tgmath.h	292;"	d
+fscanf	stdio.h	457;"	d
+fseek	stdio.h	/^extern int fseek (FILE *__stream, long int __off, int __whence);$/;"	p	signature:(FILE *__stream, long int __off, int __whence)
+fseeko	stdio.h	/^extern int fseeko (FILE *__stream, __off_t __off, int __whence);$/;"	p	signature:(FILE *__stream, __off_t __off, int __whence)
+fseeko64	stdio.h	/^extern int fseeko64 (FILE *__stream, __off64_t __off, int __whence);$/;"	p	signature:(FILE *__stream, __off64_t __off, int __whence)
+fsetpos	stdio.h	/^extern int fsetpos (FILE *__stream, const fpos_t *__pos);$/;"	p	signature:(FILE *__stream, const fpos_t *__pos)
+fsetpos64	stdio.h	/^extern int fsetpos64 (FILE *__stream, const fpos64_t *__pos);$/;"	p	signature:(FILE *__stream, const fpos64_t *__pos)
+fwprintf	wchar.h	/^extern int fwprintf (__FILE *__restrict __stream,$/;"	p	signature:(__FILE *__restrict __stream, const wchar_t *__restrict __format, ...)
+fwrite	stdio.h	/^extern size_t fwrite (const void *__restrict __ptr, size_t __size,$/;"	p	signature:(const void *__restrict __ptr, size_t __size, size_t __n, FILE *__restrict __s)
+fwrite_unlocked	stdio.h	/^extern size_t fwrite_unlocked (const void *__restrict __ptr, size_t __size,$/;"	p	signature:(const void *__restrict __ptr, size_t __size, size_t __n, FILE *__restrict __stream)
+fwscanf	wchar.h	/^extern int fwscanf (__FILE *__restrict __stream,$/;"	p	signature:(__FILE *__restrict __stream, const wchar_t *__restrict __format, ...)
+fwscanf	wchar.h	674;"	d
+getc	stdio.h	/^extern int getc (FILE *__stream);$/;"	p	signature:(FILE *__stream)
+getc	stdio.h	543;"	d
+getc_unlocked	stdio.h	/^extern int getc_unlocked (FILE *__stream);$/;"	p	signature:(FILE *__stream)
+getchar	stdio.h	/^extern int getchar (void);$/;"	p	signature:(void)
+getchar_unlocked	stdio.h	/^extern int getchar_unlocked (void);$/;"	p	signature:(void)
+getdate	time.h	/^extern struct tm *getdate (const char *__string);$/;"	p	signature:(const char *__string)
+getdate_err	time.h	/^extern int getdate_err;$/;"	x
+getdate_r	time.h	/^extern int getdate_r (const char *__restrict __string,$/;"	p	signature:(const char *__restrict __string, struct tm *__restrict __resbufp)
+getpt	stdlib.h	/^extern int getpt (void);$/;"	p	signature:(void)
+getw	stdio.h	/^extern int getw (FILE *__stream);$/;"	p	signature:(FILE *__stream)
+getwc	wchar.h	/^extern wint_t getwc (__FILE *__stream);$/;"	p	signature:(__FILE *__stream)
+getwc_unlocked	wchar.h	/^extern wint_t getwc_unlocked (__FILE *__stream);$/;"	p	signature:(__FILE *__stream)
+getwchar	wchar.h	/^extern wint_t getwchar (void);$/;"	p	signature:(void)
+getwchar_unlocked	wchar.h	/^extern wint_t getwchar_unlocked (void);$/;"	p	signature:(void)
+grouping	locale.h	/^  char *grouping;$/;"	m	struct:lconv	access:public
+hypot	tgmath.h	332;"	d
+ilogb	tgmath.h	416;"	d
+imaxdiv_t	inttypes.h	/^  } imaxdiv_t;$/;"	t	typeref:struct:__anon10
+int16_t	stdint.h	/^typedef short int		int16_t;$/;"	t
+int32_t	stdint.h	/^typedef int			int32_t;$/;"	t
+int64_t	stdint.h	/^typedef long int		int64_t;$/;"	t
+int64_t	stdint.h	/^typedef long long int		int64_t;$/;"	t
+int8_t	stdint.h	/^typedef signed char		int8_t;$/;"	t
+int_curr_symbol	locale.h	/^  char *int_curr_symbol;$/;"	m	struct:lconv	access:public
+int_fast16_t	stdint.h	/^typedef int			int_fast16_t;$/;"	t
+int_fast16_t	stdint.h	/^typedef long int		int_fast16_t;$/;"	t
+int_fast32_t	stdint.h	/^typedef int			int_fast32_t;$/;"	t
+int_fast32_t	stdint.h	/^typedef long int		int_fast32_t;$/;"	t
+int_fast64_t	stdint.h	/^typedef long int		int_fast64_t;$/;"	t
+int_fast64_t	stdint.h	/^typedef long long int		int_fast64_t;$/;"	t
+int_fast8_t	stdint.h	/^typedef signed char		int_fast8_t;$/;"	t
+int_frac_digits	locale.h	/^  char int_frac_digits;		\/* Int'l fractional digits.  *\/$/;"	m	struct:lconv	access:public
+int_least16_t	stdint.h	/^typedef short int		int_least16_t;$/;"	t
+int_least32_t	stdint.h	/^typedef int			int_least32_t;$/;"	t
+int_least64_t	stdint.h	/^typedef long int		int_least64_t;$/;"	t
+int_least64_t	stdint.h	/^typedef long long int		int_least64_t;$/;"	t
+int_least8_t	stdint.h	/^typedef signed char		int_least8_t;$/;"	t
+int_n_cs_precedes	locale.h	/^  char int_n_cs_precedes;$/;"	m	struct:lconv	access:public
+int_n_sep_by_space	locale.h	/^  char int_n_sep_by_space;$/;"	m	struct:lconv	access:public
+int_n_sign_posn	locale.h	/^  char int_n_sign_posn;$/;"	m	struct:lconv	access:public
+int_p_cs_precedes	locale.h	/^  char int_p_cs_precedes;$/;"	m	struct:lconv	access:public
+int_p_sep_by_space	locale.h	/^  char int_p_sep_by_space;$/;"	m	struct:lconv	access:public
+int_p_sign_posn	locale.h	/^  char int_p_sign_posn;$/;"	m	struct:lconv	access:public
+intmax_t	stdint.h	/^typedef long int		intmax_t;$/;"	t
+intmax_t	stdint.h	/^typedef long long int		intmax_t;$/;"	t
+intptr_t	stdint.h	/^typedef int			intptr_t;$/;"	t
+intptr_t	stdint.h	/^typedef long int		intptr_t;$/;"	t
+inttypes.h	inttypes.h	1;"	F
+isalnum_l	ctype.h	/^__exctype_l (isalnum_l);$/;"	v
+isalnum_l	ctype.h	324;"	d
+isalpha	ctype.h	/^__exctype (isalpha);$/;"	v
+isalpha_l	ctype.h	/^__exctype_l (isalpha_l);$/;"	v
+isalpha_l	ctype.h	325;"	d
+isascii	ctype.h	233;"	d
+isascii_l	ctype.h	339;"	d
+isblank_l	ctype.h	/^__exctype_l (isblank_l);$/;"	v
+isblank_l	ctype.h	336;"	d
+iscntrl	ctype.h	/^__exctype (iscntrl);$/;"	v
+iscntrl_l	ctype.h	/^__exctype_l (iscntrl_l);$/;"	v
+iscntrl_l	ctype.h	326;"	d
+isdigit	ctype.h	/^__exctype (isdigit);$/;"	v
+isdigit_l	ctype.h	/^__exctype_l (isdigit_l);$/;"	v
+isdigit_l	ctype.h	327;"	d
+isfinite	math.h	234;"	d
+isfinite	math.h	237;"	d
+isgraph	ctype.h	/^__exctype (isgraph);$/;"	v
+isgraph_l	ctype.h	/^__exctype_l (isgraph_l);$/;"	v
+isgraph_l	ctype.h	329;"	d
+isgreater	math.h	416;"	d
+isgreater	math.h	440;"	d
+isgreaterequal	math.h	417;"	d
+isgreaterequal	math.h	448;"	d
+isinf	math.h	262;"	d
+isinf	math.h	265;"	d
+isless	math.h	418;"	d
+isless	math.h	456;"	d
+islessequal	math.h	419;"	d
+islessequal	math.h	464;"	d
+islessgreater	math.h	420;"	d
+islessgreater	math.h	472;"	d
+islower	ctype.h	/^__exctype (islower);$/;"	v
+islower_l	ctype.h	/^__exctype_l (islower_l);$/;"	v
+islower_l	ctype.h	328;"	d
+isnan	math.h	250;"	d
+isnan	math.h	253;"	d
+isnormal	math.h	245;"	d
+isprint	ctype.h	/^__exctype (isprint);$/;"	v
+isprint_l	ctype.h	/^__exctype_l (isprint_l);$/;"	v
+isprint_l	ctype.h	330;"	d
+ispunct	ctype.h	/^__exctype (ispunct);$/;"	v
+ispunct_l	ctype.h	/^__exctype_l (ispunct_l);$/;"	v
+ispunct_l	ctype.h	331;"	d
+issignaling	math.h	288;"	d
+issignaling	math.h	291;"	d
+isspace	ctype.h	/^__exctype (isspace);$/;"	v
+isspace_l	ctype.h	/^__exctype_l (isspace_l);$/;"	v
+isspace_l	ctype.h	332;"	d
+isunordered	math.h	421;"	d
+isunordered	math.h	480;"	d
+isupper	ctype.h	/^__exctype (isupper);$/;"	v
+isupper_l	ctype.h	/^__exctype_l (isupper_l);$/;"	v
+isupper_l	ctype.h	333;"	d
+isxdigit	ctype.h	/^__exctype (isxdigit);$/;"	v
+isxdigit_l	ctype.h	/^__exctype_l (isxdigit_l);$/;"	v
+isxdigit_l	ctype.h	334;"	d
+it_interval	time.h	/^    struct timespec it_interval;$/;"	m	struct:itimerspec	typeref:struct:itimerspec::timespec	access:public
+it_value	time.h	/^    struct timespec it_value;$/;"	m	struct:itimerspec	typeref:struct:itimerspec::timespec	access:public
+itimerspec	time.h	/^struct itimerspec$/;"	s
+itimerspec::it_interval	time.h	/^    struct timespec it_interval;$/;"	m	struct:itimerspec	typeref:struct:itimerspec::timespec	access:public
+itimerspec::it_value	time.h	/^    struct timespec it_value;$/;"	m	struct:itimerspec	typeref:struct:itimerspec::timespec	access:public
+jmp_buf	setjmp.h	/^typedef struct __jmp_buf_tag jmp_buf[1];$/;"	t	typeref:struct:__jmp_buf_tag
+lconv	locale.h	/^struct lconv$/;"	s
+lconv::__int_n_cs_precedes	locale.h	/^  char __int_n_cs_precedes;$/;"	m	struct:lconv	access:public
+lconv::__int_n_sep_by_space	locale.h	/^  char __int_n_sep_by_space;$/;"	m	struct:lconv	access:public
+lconv::__int_n_sign_posn	locale.h	/^  char __int_n_sign_posn;$/;"	m	struct:lconv	access:public
+lconv::__int_p_cs_precedes	locale.h	/^  char __int_p_cs_precedes;$/;"	m	struct:lconv	access:public
+lconv::__int_p_sep_by_space	locale.h	/^  char __int_p_sep_by_space;$/;"	m	struct:lconv	access:public
+lconv::__int_p_sign_posn	locale.h	/^  char __int_p_sign_posn;$/;"	m	struct:lconv	access:public
+lconv::currency_symbol	locale.h	/^  char *currency_symbol;	\/* Local currency symbol.  *\/$/;"	m	struct:lconv	access:public
+lconv::decimal_point	locale.h	/^  char *decimal_point;		\/* Decimal point character.  *\/$/;"	m	struct:lconv	access:public
+lconv::frac_digits	locale.h	/^  char frac_digits;		\/* Local fractional digits.  *\/$/;"	m	struct:lconv	access:public
+lconv::grouping	locale.h	/^  char *grouping;$/;"	m	struct:lconv	access:public
+lconv::int_curr_symbol	locale.h	/^  char *int_curr_symbol;$/;"	m	struct:lconv	access:public
+lconv::int_frac_digits	locale.h	/^  char int_frac_digits;		\/* Int'l fractional digits.  *\/$/;"	m	struct:lconv	access:public
+lconv::int_n_cs_precedes	locale.h	/^  char int_n_cs_precedes;$/;"	m	struct:lconv	access:public
+lconv::int_n_sep_by_space	locale.h	/^  char int_n_sep_by_space;$/;"	m	struct:lconv	access:public
+lconv::int_n_sign_posn	locale.h	/^  char int_n_sign_posn;$/;"	m	struct:lconv	access:public
+lconv::int_p_cs_precedes	locale.h	/^  char int_p_cs_precedes;$/;"	m	struct:lconv	access:public
+lconv::int_p_sep_by_space	locale.h	/^  char int_p_sep_by_space;$/;"	m	struct:lconv	access:public
+lconv::int_p_sign_posn	locale.h	/^  char int_p_sign_posn;$/;"	m	struct:lconv	access:public
+lconv::mon_decimal_point	locale.h	/^  char *mon_decimal_point;	\/* Decimal point character.  *\/$/;"	m	struct:lconv	access:public
+lconv::mon_grouping	locale.h	/^  char *mon_grouping;		\/* Like `grouping' element (above).  *\/$/;"	m	struct:lconv	access:public
+lconv::mon_thousands_sep	locale.h	/^  char *mon_thousands_sep;	\/* Thousands separator.  *\/$/;"	m	struct:lconv	access:public
+lconv::n_cs_precedes	locale.h	/^  char n_cs_precedes;$/;"	m	struct:lconv	access:public
+lconv::n_sep_by_space	locale.h	/^  char n_sep_by_space;$/;"	m	struct:lconv	access:public
+lconv::n_sign_posn	locale.h	/^  char n_sign_posn;$/;"	m	struct:lconv	access:public
+lconv::negative_sign	locale.h	/^  char *negative_sign;		\/* Sign for negative values.  *\/$/;"	m	struct:lconv	access:public
+lconv::p_cs_precedes	locale.h	/^  char p_cs_precedes;$/;"	m	struct:lconv	access:public
+lconv::p_sep_by_space	locale.h	/^  char p_sep_by_space;$/;"	m	struct:lconv	access:public
+lconv::p_sign_posn	locale.h	/^  char p_sign_posn;$/;"	m	struct:lconv	access:public
+lconv::positive_sign	locale.h	/^  char *positive_sign;		\/* Sign for positive values.  *\/$/;"	m	struct:lconv	access:public
+lconv::thousands_sep	locale.h	/^  char *thousands_sep;		\/* Thousands separator.  *\/$/;"	m	struct:lconv	access:public
+ldexp	tgmath.h	295;"	d
+ldiv_t	stdlib.h	/^  } ldiv_t;$/;"	t	typeref:struct:__anon5
+lgamma	tgmath.h	388;"	d
+limits.h	limits.h	1;"	F
+lldiv_t	stdlib.h	/^  } lldiv_t;$/;"	t	typeref:struct:__anon6
+llrint	tgmath.h	373;"	d
+llround	tgmath.h	378;"	d
+locale.h	locale.h	1;"	F
+log	tgmath.h	298;"	d
+log10	tgmath.h	302;"	d
+log10	tgmath.h	304;"	d
+log1p	tgmath.h	311;"	d
+log2	tgmath.h	320;"	d
+logb	tgmath.h	314;"	d
+lrint	tgmath.h	372;"	d
+lround	tgmath.h	377;"	d
+math.h	math.h	1;"	F
+math_errhandling	math.h	280;"	d
+matherr	math.h	/^extern int matherr (struct __exception *__exc) throw ();$/;"	p	signature:(struct __exception *__exc)
+matherr	math.h	/^extern int matherr (struct exception *__exc);$/;"	p	signature:(struct exception *__exc)
+mbrlen	wchar.h	/^__NTH (mbrlen (const char *__restrict __s, size_t __n,$/;"	f	signature:(const char *__restrict __s, size_t __n, mbstate_t *__restrict __ps)
+mbstate_t	wchar.h	/^typedef __mbstate_t mbstate_t;$/;"	t
+mkostemp	stdlib.h	680;"	d
+mkostemps	stdlib.h	702;"	d
+mkstemp	stdlib.h	626;"	d
+mkstemps	stdlib.h	648;"	d
+mon_decimal_point	locale.h	/^  char *mon_decimal_point;	\/* Decimal point character.  *\/$/;"	m	struct:lconv	access:public
+mon_grouping	locale.h	/^  char *mon_grouping;		\/* Like `grouping' element (above).  *\/$/;"	m	struct:lconv	access:public
+mon_thousands_sep	locale.h	/^  char *mon_thousands_sep;	\/* Thousands separator.  *\/$/;"	m	struct:lconv	access:public
+n_cs_precedes	locale.h	/^  char n_cs_precedes;$/;"	m	struct:lconv	access:public
+n_sep_by_space	locale.h	/^  char n_sep_by_space;$/;"	m	struct:lconv	access:public
+n_sign_posn	locale.h	/^  char n_sign_posn;$/;"	m	struct:lconv	access:public
+name	math.h	/^    char *name;$/;"	m	struct:__exception	access:public
+nanosleep	time.h	/^extern int nanosleep (const struct timespec *__requested_time,$/;"	p	signature:(const struct timespec *__requested_time, struct timespec *__remaining)
+nearbyint	tgmath.h	354;"	d
+negative_sign	locale.h	/^  char *negative_sign;		\/* Sign for negative values.  *\/$/;"	m	struct:lconv	access:public
+nextafter	tgmath.h	396;"	d
+nexttoward	tgmath.h	397;"	d
+obstack	stdio.h	/^struct obstack;			\/* See <obstack.h>.  *\/$/;"	x
+off64_t	stdio.h	/^typedef __off64_t off64_t;$/;"	t
+off_t	stdio.h	/^typedef __off64_t off_t;$/;"	t
+off_t	stdio.h	/^typedef __off_t off_t;$/;"	t
+p_cs_precedes	locale.h	/^  char p_cs_precedes;$/;"	m	struct:lconv	access:public
+p_sep_by_space	locale.h	/^  char p_sep_by_space;$/;"	m	struct:lconv	access:public
+p_sign_posn	locale.h	/^  char p_sign_posn;$/;"	m	struct:lconv	access:public
+pclose	stdio.h	/^extern int pclose (FILE *__stream);$/;"	p	signature:(FILE *__stream)
+perror	stdio.h	/^extern void perror (const char *__s);$/;"	p	signature:(const char *__s)
+pid_t	signal.h	/^typedef __pid_t pid_t;$/;"	t
+pid_t	time.h	/^typedef __pid_t pid_t;$/;"	t
+positive_sign	locale.h	/^  char *positive_sign;		\/* Sign for positive values.  *\/$/;"	m	struct:lconv	access:public
+pow	tgmath.h	326;"	d
+printf	stdio.h	/^extern int printf (const char *__restrict __format, ...);$/;"	p	signature:(const char *__restrict __format, ...)
+program_invocation_name	errno.h	/^extern char *program_invocation_name, *program_invocation_short_name;$/;"	x
+program_invocation_short_name	errno.h	/^extern char *program_invocation_name, *program_invocation_short_name;$/;"	x
+psiginfo	signal.h	/^extern void psiginfo (const siginfo_t *__pinfo, const char *__s);$/;"	p	signature:(const siginfo_t *__pinfo, const char *__s)
+psignal	signal.h	/^extern void psignal (int __sig, const char *__s);$/;"	p	signature:(int __sig, const char *__s)
+putc	stdio.h	/^extern int putc (int __c, FILE *__stream);$/;"	p	signature:(int __c, FILE *__stream)
+putc	stdio.h	585;"	d
+putc_unlocked	stdio.h	/^extern int putc_unlocked (int __c, FILE *__stream);$/;"	p	signature:(int __c, FILE *__stream)
+putchar	stdio.h	/^extern int putchar (int __c);$/;"	p	signature:(int __c)
+putchar_unlocked	stdio.h	/^extern int putchar_unlocked (int __c);$/;"	p	signature:(int __c)
+puts	stdio.h	/^extern int puts (const char *__s);$/;"	p	signature:(const char *__s)
+putw	stdio.h	/^extern int putw (int __w, FILE *__stream);$/;"	p	signature:(int __w, FILE *__stream)
+putwc	wchar.h	/^extern wint_t putwc (wchar_t __wc, __FILE *__stream);$/;"	p	signature:(wchar_t __wc, __FILE *__stream)
+putwc_unlocked	wchar.h	/^extern wint_t putwc_unlocked (wchar_t __wc, __FILE *__stream);$/;"	p	signature:(wchar_t __wc, __FILE *__stream)
+putwchar	wchar.h	/^extern wint_t putwchar (wchar_t __wc);$/;"	p	signature:(wchar_t __wc)
+putwchar_unlocked	wchar.h	/^extern wint_t putwchar_unlocked (wchar_t __wc);$/;"	p	signature:(wchar_t __wc)
+quot	inttypes.h	/^    long int quot;		\/* Quotient.  *\/$/;"	m	struct:__anon10	access:public
+quot	stdlib.h	/^    int quot;			\/* Quotient.  *\/$/;"	m	struct:__anon4	access:public
+quot	stdlib.h	/^    long int quot;		\/* Quotient.  *\/$/;"	m	struct:__anon5	access:public
+quot	stdlib.h	/^    long long int quot;		\/* Quotient.  *\/$/;"	m	struct:__anon6	access:public
+rand_deg	stdlib.h	/^    int rand_deg;		\/* Degree of random number generator.  *\/$/;"	m	struct:random_data	access:public
+rand_sep	stdlib.h	/^    int rand_sep;		\/* Distance between front and rear.  *\/$/;"	m	struct:random_data	access:public
+rand_type	stdlib.h	/^    int rand_type;		\/* Type of random number generator.  *\/$/;"	m	struct:random_data	access:public
+random_data	stdlib.h	/^struct random_data$/;"	s
+random_data::end_ptr	stdlib.h	/^    int32_t *end_ptr;		\/* Pointer behind state table.  *\/$/;"	m	struct:random_data	access:public
+random_data::fptr	stdlib.h	/^    int32_t *fptr;		\/* Front pointer.  *\/$/;"	m	struct:random_data	access:public
+random_data::rand_deg	stdlib.h	/^    int rand_deg;		\/* Degree of random number generator.  *\/$/;"	m	struct:random_data	access:public
+random_data::rand_sep	stdlib.h	/^    int rand_sep;		\/* Distance between front and rear.  *\/$/;"	m	struct:random_data	access:public
+random_data::rand_type	stdlib.h	/^    int rand_type;		\/* Type of random number generator.  *\/$/;"	m	struct:random_data	access:public
+random_data::rptr	stdlib.h	/^    int32_t *rptr;		\/* Rear pointer.  *\/$/;"	m	struct:random_data	access:public
+random_data::state	stdlib.h	/^    int32_t *state;		\/* Array of state values.  *\/$/;"	m	struct:random_data	access:public
+rem	inttypes.h	/^    long int rem;		\/* Remainder.  *\/$/;"	m	struct:__anon10	access:public
+rem	stdlib.h	/^    int rem;			\/* Remainder.  *\/$/;"	m	struct:__anon4	access:public
+rem	stdlib.h	/^    long int rem;		\/* Remainder.  *\/$/;"	m	struct:__anon5	access:public
+rem	stdlib.h	/^    long long int rem;		\/* Remainder.  *\/$/;"	m	struct:__anon6	access:public
+remainder	tgmath.h	401;"	d
+remquo	tgmath.h	367;"	d
+retval	math.h	/^    double retval;$/;"	m	struct:__exception	access:public
+rewind	stdio.h	/^extern void rewind (FILE *__stream);$/;"	p	signature:(FILE *__stream)
+rint	tgmath.h	393;"	d
+round	tgmath.h	358;"	d
+rptr	stdlib.h	/^    int32_t *rptr;		\/* Rear pointer.  *\/$/;"	m	struct:random_data	access:public
+scalb	tgmath.h	405;"	d
+scalbln	tgmath.h	412;"	d
+scalbn	tgmath.h	409;"	d
+scanf	stdio.h	458;"	d
+setjmp	setjmp.h	67;"	d
+setjmp.h	setjmp.h	1;"	F
+sig_atomic_t	signal.h	/^typedef __sig_atomic_t sig_atomic_t;$/;"	t
+sig_t	signal.h	/^typedef __sighandler_t sig_t;$/;"	t
+sigevent	time.h	/^struct sigevent;$/;"	x
+sighandler_t	signal.h	/^typedef __sighandler_t sighandler_t;$/;"	t
+sigjmp_buf	setjmp.h	/^typedef struct __jmp_buf_tag sigjmp_buf[1];$/;"	t	typeref:struct:__jmp_buf_tag
+sigmask	signal.h	186;"	d
+signal.h	signal.h	1;"	F
+signbit	math.h	222;"	d
+signbit	math.h	225;"	d
+signgam	math.h	/^extern int signgam;$/;"	x
+sigpause	signal.h	174;"	d
+sigset_t	signal.h	/^typedef __sigset_t sigset_t;$/;"	t
+sigsetjmp	setjmp.h	96;"	d
+sigvec	signal.h	/^struct sigvec$/;"	s
+sigvec::sv_flags	signal.h	/^    int sv_flags;		\/* Flags (see below).  *\/$/;"	m	struct:sigvec	access:public
+sigvec::sv_handler	signal.h	/^    __sighandler_t sv_handler;	\/* Signal handler.  *\/$/;"	m	struct:sigvec	access:public
+sigvec::sv_mask	signal.h	/^    int sv_mask;		\/* Mask of signals to be blocked.  *\/$/;"	m	struct:sigvec	access:public
+sin	tgmath.h	264;"	d
+sinh	tgmath.h	281;"	d
+sqrt	tgmath.h	329;"	d
+sscanf	stdio.h	459;"	d
+ssize_t	stdio.h	/^typedef __ssize_t ssize_t;$/;"	t
+state	stdlib.h	/^    int32_t *state;		\/* Array of state values.  *\/$/;"	m	struct:random_data	access:public
+static_assert	assert.h	120;"	d
+static_assert	assert.h	121;"	d
+stdarg.h	c++/4.8/tr1/stdarg.h	1;"	F
+stdbool.h	c++/4.8/tr1/stdbool.h	1;"	F
+stddef.h	linux/stddef.h	1;"	F
+stderr	stdio.h	/^extern struct _IO_FILE *stderr;		\/* Standard error output stream.  *\/$/;"	x
+stderr	stdio.h	174;"	d
+stdin	stdio.h	/^extern struct _IO_FILE *stdin;		\/* Standard input stream.  *\/$/;"	x
+stdin	stdio.h	172;"	d
+stdint.h	stdint.h	1;"	F
+stdio.h	stdio.h	1;"	F
+stdlib.h	stdlib.h	1;"	F
+stdout	stdio.h	/^extern struct _IO_FILE *stdout;		\/* Standard output stream.  *\/$/;"	x
+stdout	stdio.h	173;"	d
+strdupa	string.h	190;"	d
+string.h	string.h	1;"	F
+strndupa	string.h	200;"	d
+strtoimax	inttypes.h	/^__NTH (strtoimax (const char *__restrict nptr, char **__restrict endptr,$/;"	f	signature:(const char *__restrict nptr, char **__restrict endptr, int base)
+strtoumax	inttypes.h	/^__NTH (strtoumax (const char *__restrict nptr, char **__restrict endptr,$/;"	f	signature:(const char *__restrict nptr, char **__restrict endptr, int base)
+sv_flags	signal.h	/^    int sv_flags;		\/* Flags (see below).  *\/$/;"	m	struct:sigvec	access:public
+sv_handler	signal.h	/^    __sighandler_t sv_handler;	\/* Signal handler.  *\/$/;"	m	struct:sigvec	access:public
+sv_mask	signal.h	/^    int sv_mask;		\/* Mask of signals to be blocked.  *\/$/;"	m	struct:sigvec	access:public
+sv_onstack	signal.h	313;"	d
+swscanf	wchar.h	676;"	d
+sys_siglist	signal.h	/^extern const char *const sys_siglist[_NSIG];$/;"	x
+tan	tgmath.h	266;"	d
+tanh	tgmath.h	283;"	d
+tgamma	tgmath.h	387;"	d
+tgmath.h	tgmath.h	1;"	F
+thousands_sep	locale.h	/^  char *thousands_sep;		\/* Thousands separator.  *\/$/;"	m	struct:lconv	access:public
+time.h	time.h	1;"	F
+time_t	time.h	/^typedef __time_t time_t;$/;"	t
+timer_t	time.h	/^typedef __timer_t timer_t;$/;"	t
+timespec	time.h	/^struct timespec$/;"	s
+timespec::tv_nsec	time.h	/^    __syscall_slong_t tv_nsec;	\/* Nanoseconds.  *\/$/;"	m	struct:timespec	access:public
+timespec::tv_sec	time.h	/^    __time_t tv_sec;		\/* Seconds.  *\/$/;"	m	struct:timespec	access:public
+timezone	time.h	/^extern long int timezone;$/;"	x
+tm	time.h	/^struct tm$/;"	s
+tm	wchar.h	/^struct tm;$/;"	x
+tm::__tm_gmtoff	time.h	/^  long int __tm_gmtoff;		\/* Seconds east of UTC.  *\/$/;"	m	struct:tm	access:public
+tm::__tm_zone	time.h	/^  const char *__tm_zone;	\/* Timezone abbreviation.  *\/$/;"	m	struct:tm	access:public
+tm::tm_gmtoff	time.h	/^  long int tm_gmtoff;		\/* Seconds east of UTC.  *\/$/;"	m	struct:tm	access:public
+tm::tm_hour	time.h	/^  int tm_hour;			\/* Hours.	[0-23] *\/$/;"	m	struct:tm	access:public
+tm::tm_isdst	time.h	/^  int tm_isdst;			\/* DST.		[-1\/0\/1]*\/$/;"	m	struct:tm	access:public
+tm::tm_mday	time.h	/^  int tm_mday;			\/* Day.		[1-31] *\/$/;"	m	struct:tm	access:public
+tm::tm_min	time.h	/^  int tm_min;			\/* Minutes.	[0-59] *\/$/;"	m	struct:tm	access:public
+tm::tm_mon	time.h	/^  int tm_mon;			\/* Month.	[0-11] *\/$/;"	m	struct:tm	access:public
+tm::tm_sec	time.h	/^  int tm_sec;			\/* Seconds.	[0-60] (1 leap second) *\/$/;"	m	struct:tm	access:public
+tm::tm_wday	time.h	/^  int tm_wday;			\/* Day of week.	[0-6] *\/$/;"	m	struct:tm	access:public
+tm::tm_yday	time.h	/^  int tm_yday;			\/* Days in year.[0-365]	*\/$/;"	m	struct:tm	access:public
+tm::tm_year	time.h	/^  int tm_year;			\/* Year	- 1900.  *\/$/;"	m	struct:tm	access:public
+tm::tm_zone	time.h	/^  const char *tm_zone;		\/* Timezone abbreviation.  *\/$/;"	m	struct:tm	access:public
+tm_gmtoff	time.h	/^  long int tm_gmtoff;		\/* Seconds east of UTC.  *\/$/;"	m	struct:tm	access:public
+tm_hour	time.h	/^  int tm_hour;			\/* Hours.	[0-23] *\/$/;"	m	struct:tm	access:public
+tm_isdst	time.h	/^  int tm_isdst;			\/* DST.		[-1\/0\/1]*\/$/;"	m	struct:tm	access:public
+tm_mday	time.h	/^  int tm_mday;			\/* Day.		[1-31] *\/$/;"	m	struct:tm	access:public
+tm_min	time.h	/^  int tm_min;			\/* Minutes.	[0-59] *\/$/;"	m	struct:tm	access:public
+tm_mon	time.h	/^  int tm_mon;			\/* Month.	[0-11] *\/$/;"	m	struct:tm	access:public
+tm_sec	time.h	/^  int tm_sec;			\/* Seconds.	[0-60] (1 leap second) *\/$/;"	m	struct:tm	access:public
+tm_wday	time.h	/^  int tm_wday;			\/* Day of week.	[0-6] *\/$/;"	m	struct:tm	access:public
+tm_yday	time.h	/^  int tm_yday;			\/* Days in year.[0-365]	*\/$/;"	m	struct:tm	access:public
+tm_year	time.h	/^  int tm_year;			\/* Year	- 1900.  *\/$/;"	m	struct:tm	access:public
+tm_zone	time.h	/^  const char *tm_zone;		\/* Timezone abbreviation.  *\/$/;"	m	struct:tm	access:public
+toascii	ctype.h	234;"	d
+toascii_l	ctype.h	340;"	d
+tolower	ctype.h	/^__NTH (tolower (int __c))$/;"	f	signature:(int __c)
+tolower	ctype.h	228;"	d
+tolower_l	ctype.h	299;"	d
+toupper	ctype.h	/^__NTH (toupper (int __c))$/;"	f	signature:(int __c)
+toupper	ctype.h	229;"	d
+toupper_l	ctype.h	300;"	d
+trunc	tgmath.h	362;"	d
+tv_nsec	time.h	/^    __syscall_slong_t tv_nsec;	\/* Nanoseconds.  *\/$/;"	m	struct:timespec	access:public
+tv_sec	time.h	/^    __time_t tv_sec;		\/* Seconds.  *\/$/;"	m	struct:timespec	access:public
+type	math.h	/^    int type;$/;"	m	struct:__exception	access:public
+tzname	time.h	/^extern char *tzname[2];$/;"	x
+uid_t	signal.h	/^typedef __uid_t uid_t;$/;"	t
+uint16_t	stdint.h	/^typedef unsigned short int	uint16_t;$/;"	t
+uint32_t	stdint.h	/^typedef unsigned int		uint32_t;$/;"	t
+uint64_t	stdint.h	/^typedef unsigned long int	uint64_t;$/;"	t
+uint64_t	stdint.h	/^typedef unsigned long long int	uint64_t;$/;"	t
+uint8_t	stdint.h	/^typedef unsigned char		uint8_t;$/;"	t
+uint_fast16_t	stdint.h	/^typedef unsigned int		uint_fast16_t;$/;"	t
+uint_fast16_t	stdint.h	/^typedef unsigned long int	uint_fast16_t;$/;"	t
+uint_fast32_t	stdint.h	/^typedef unsigned int		uint_fast32_t;$/;"	t
+uint_fast32_t	stdint.h	/^typedef unsigned long int	uint_fast32_t;$/;"	t
+uint_fast64_t	stdint.h	/^typedef unsigned long int	uint_fast64_t;$/;"	t
+uint_fast64_t	stdint.h	/^typedef unsigned long long int	uint_fast64_t;$/;"	t
+uint_fast8_t	stdint.h	/^typedef unsigned char		uint_fast8_t;$/;"	t
+uint_least16_t	stdint.h	/^typedef unsigned short int	uint_least16_t;$/;"	t
+uint_least32_t	stdint.h	/^typedef unsigned int		uint_least32_t;$/;"	t
+uint_least64_t	stdint.h	/^typedef unsigned long int	uint_least64_t;$/;"	t
+uint_least64_t	stdint.h	/^typedef unsigned long long int	uint_least64_t;$/;"	t
+uint_least8_t	stdint.h	/^typedef unsigned char		uint_least8_t;$/;"	t
+uintmax_t	stdint.h	/^typedef unsigned long int	uintmax_t;$/;"	t
+uintmax_t	stdint.h	/^typedef unsigned long long int	uintmax_t;$/;"	t
+uintptr_t	stdint.h	/^typedef unsigned int		uintptr_t;$/;"	t
+uintptr_t	stdint.h	/^typedef unsigned long int	uintptr_t;$/;"	t
+ungetc	stdio.h	/^extern int ungetc (int __c, FILE *__stream);$/;"	p	signature:(int __c, FILE *__stream)
+ungetwc	wchar.h	/^extern wint_t ungetwc (wint_t __wc, __FILE *__stream);$/;"	p	signature:(wint_t __wc, __FILE *__stream)
+va_list	stdio.h	/^typedef _G_va_list va_list;$/;"	t
+vdprintf	stdio.h	/^extern int vdprintf (int __fd, const char *__restrict __fmt,$/;"	p	signature:(int __fd, const char *__restrict __fmt, _G_va_list __arg)
+vfprintf	stdio.h	/^extern int vfprintf (FILE *__restrict __s, const char *__restrict __format,$/;"	p	signature:(FILE *__restrict __s, const char *__restrict __format, _G_va_list __arg)
+vfscanf	stdio.h	516;"	d
+vfwprintf	wchar.h	/^extern int vfwprintf (__FILE *__restrict __s,$/;"	p	signature:(__FILE *__restrict __s, const wchar_t *__restrict __format, __gnuc_va_list __arg)
+vfwscanf	wchar.h	/^extern int vfwscanf (__FILE *__restrict __s,$/;"	p	signature:(__FILE *__restrict __s, const wchar_t *__restrict __format, __gnuc_va_list __arg)
+vfwscanf	wchar.h	730;"	d
+vprintf	stdio.h	/^extern int vprintf (const char *__restrict __format, _G_va_list __arg);$/;"	p	signature:(const char *__restrict __format, _G_va_list __arg)
+vscanf	stdio.h	517;"	d
+vsscanf	stdio.h	518;"	d
+vswscanf	wchar.h	732;"	d
+vwprintf	wchar.h	/^extern int vwprintf (const wchar_t *__restrict __format,$/;"	p	signature:(const wchar_t *__restrict __format, __gnuc_va_list __arg)
+vwscanf	wchar.h	/^extern int vwscanf (const wchar_t *__restrict __format,$/;"	p	signature:(const wchar_t *__restrict __format, __gnuc_va_list __arg)
+vwscanf	wchar.h	731;"	d
+wchar.h	wchar.h	1;"	F
+wcstoimax	inttypes.h	/^__NTH (wcstoimax (const __gwchar_t *__restrict nptr,$/;"	f	signature:(const __gwchar_t *__restrict nptr, __gwchar_t **__restrict endptr, int base)
+wcstoumax	inttypes.h	/^__NTH (wcstoumax (const __gwchar_t *__restrict nptr,$/;"	f	signature:(const __gwchar_t *__restrict nptr, __gwchar_t **__restrict endptr, int base)
+wctob	wchar.h	/^__NTH (wctob (wint_t __wc))$/;"	f	signature:(wint_t __wc)
+wctrans_t	wctype.h	/^typedef const __int32_t *wctrans_t;$/;"	t
+wctype.h	wctype.h	1;"	F
+wctype_t	wctype.h	/^typedef unsigned long int wctype_t;$/;"	t
+wint_t	wchar.h	/^typedef __WINT_TYPE__ wint_t;$/;"	t
+wint_t	wchar.h	/^typedef unsigned int wint_t;$/;"	t
+wprintf	wchar.h	/^extern int wprintf (const wchar_t *__restrict __format, ...)$/;"	p	signature:(const wchar_t *__restrict __format, ...)
+wscanf	wchar.h	/^extern int wscanf (const wchar_t *__restrict __format, ...)$/;"	p	signature:(const wchar_t *__restrict __format, ...)
+wscanf	wchar.h	675;"	d
