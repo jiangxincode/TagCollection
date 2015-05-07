@@ -2,7 +2,14 @@
 
 ![image](https://github.com/jiangxincode/TagCollection/raw/master/screenshots/status.png)
 
-Auto completion for ANSI C(C99), ISO C++(C++11), POSIX and MPI(MPI 2.2).
+Some tags used by the OmniCppComplete which can auto complete your code.
+
+This TagCollection includes the useful libraries likes:
+
++ ANSI C(C99)
++ ISO C++(C++11)
++ POSIX
++ MPI(MPI 2.2).
 
 If you have some advises, please tell me, open a issue, give me a pull request, or send me a email. 
 
@@ -16,7 +23,7 @@ Hava a good time on VIM.
 
 ## Installation
 
-First of all, you should install this tools:
+First of all, you should install these tools:
 
 + [ctags](http://ctags.sourceforge.net/)
 + [OmniCppComplete](http://www.vim.org/scripts/script.php?script_id=1520)
