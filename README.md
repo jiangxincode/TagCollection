@@ -1,10 +1,10 @@
-# mpi.vim
+# TagCollection
 
-![image](https://github.com/jiangxincode/mpi.vim/raw/master/screenshots/status.png)
+![image](https://github.com/jiangxincode/TagCollection/raw/master/screenshots/status.png)
 
-Syntax highlight, matching rules and mappings for the mpi.
+Auto completion for ANSI C(C99), ISO C++(C++11) and MPI.
 
-Now the plugin has full support of MPI 2.2 with C, C++ and Fortran binding, Golang binding is on the way.
+Now the plugin has full support of MPI 2.2 with C, C++.
 
 If you have some advises, please tell me, open a issue, give me a pull request, or send me a email. 
 
@@ -15,7 +15,7 @@ Hava a good time on VIM.
 + Aloys
 + jiangxinnju@163.com
  
-![image](https://github.com/jiangxincode/mpi.vim/raw/master/screenshots/mpi-vim.png)
+![image](https://github.com/jiangxincode/TagCollection/raw/master/screenshots/mpi_autocomplete.png)
 
 
 ## Installation
@@ -23,7 +23,7 @@ Hava a good time on VIM.
 If you use [Vundle](https://github.com/gmarik/vundle),add the following line to your `~/.vimrc`:
 
 ```vim
-Plugin 'jiangxincode/mpi.vim'
+Plugin 'jiangxincode/TagCollection'
 ```
 Then run inside Vim:
 
@@ -36,23 +36,18 @@ If you use [Pathogen](https://github.com/tpope/vim-pathogen), do this:
 
 ```sh
 cd ~/.vim/bundle
-git clone https://github.com/jiangxincode/mpi.vim.git
+git clone https://github.com/jiangxincode/TagCollection.git
 ```
 
-If you are not using any package manager, download the [tarball](https://github.com/jiangxincode/mpi.vim/archive/master.tar.gz) and this:
+If you are not using any package manager, download the [tarball](https://github.com/jiangxincode/TagCollection/archive/master.tar.gz) and this:
 
 ```sh
 cd ~/.vim
-tar --strip=1 -zxf mpi.vim-master.tar.gz
+tar --strip=1 -zxf TagCollection-master.tar.gz
 ```
 
 
 ## TODO
-
-+ finish golong binding
-+ check the cpp class type
-+ add the check of namespace::function and namespace::class:function
-+ add openmpi specified support
 
 
 ## License
